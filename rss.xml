@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[每日时报]]></title><description><![CDATA[每日时报，会以前端技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。]]></description><link>https://wubaiqing.github.io/zaobao</link><generator>RSS for Node</generator><lastBuildDate>Wed, 24 Jul 2019 12:32:23 GMT</lastBuildDate><atom:link href="https://wubaiqing.github.io/zaobao/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2019每日时报]]></copyright><language><![CDATA[zh-CN]]></language><item><title><![CDATA[2019.07.24]]></title><description><![CDATA[<h3>2019.07.24</h3>
+<p>[文章] 《域名背后那些事》，配合 dig 工具分析域名解析的过程：<a href="https://nextfe.com/domain-introduction/">https://nextfe.com/domain-introduction/</a></p>
+<p>[文章] W3C 弹幕标准，建议文稿：<a href="https://w3c-proposal-incubation.github.io/danmaku-proposal/">https://w3c-proposal-incubation.github.io/danmaku-proposal/</a></p>
+<p>[类库] vee-validate 是基于 Vue 指令的表单验证工具：<a href="https://github.com/baianat/vee-validate">https://github.com/baianat/vee-validate</a></p>
+<p>[工具] SmallTab 可以帮你暂存不用的网页，需要时也能一键恢复，帮助远离混乱标签页，节省内存占用：<a href="https://chrome.google.com/webstore/detail/smalltab/npdfjbmjfdleclpgodndpepkecjfmnkp">https://chrome.google.com/webstore/detail/smalltab/npdfjbmjfdleclpgodndpepkecjfmnkp</a></p>
+<h3>配图 - W3C 弹幕标准，建议文稿</h3>
+<p><img src="https://w3c-proposal-incubation.github.io/danmaku-proposal/images/danmaku.png" alt=""></p>
+<h3>配图 - SmallTab</h3>
+<p><img src="http://qn.40zhe.com/unnamed.jpg" alt=""></p>
+<h3>示例 - vee-validate</h3>
+<pre><code class="language-vue">&lt;input v-validate=&quot;'required|email'&quot; type=&quot;text&quot; name=&quot;email&quot;&gt;
+
+&lt;span v-show=&quot;errors.has('email')&quot;&gt;{{ errors.first('email') }}&lt;/span&gt;
+</code></pre>
+<h3>今日图 - Apollo-11仓库的 issue</h3>
+<p><img src="http://qn.40zhe.com/16c0cf181ff19ac0" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/24.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/24.html</guid><pubDate>Wed, 24 Jul 2019 12:30:32 GMT</pubDate></item><item><title><![CDATA[2019.07.23]]></title><description><![CDATA[<h3>2019.07.23</h3>
+<p>[文章] 21 个 VSCode 快捷键，让代码更快更有趣；<code>Expand Bracket Selection</code>、<code>command + Shift + T</code> 是我收获到的：<a href="https://juejin.im/post/5d34fdfff265da1b897b0c8d">https://juejin.im/post/5d34fdfff265da1b897b0c8d</a></p>
+<p>[工具] 前端各种格式之间的转换工具，我测了一些，其中有一个 JSON 转 GraphQL 的，我我没有想到的点：<a href="https://transform.tools/json-to-graphql">https://transform.tools/json-to-graphql</a></p>
+<p>[工具] vCards 中国黄页 - 优化 iOS 来电、信息界面体验：<a href="https://github.com/metowolf/vCards">https://github.com/metowolf/vCards</a></p>
+<p>[工具] JavaScript 引擎，支持 ES2019：<a href="https://bellard.org/quickjs/">https://bellard.org/quickjs/</a></p>
+<h3>配图 - 21 个 VSCode 快捷键</h3>
+<p><img src="http://qn.40zhe.com/16c1701963a7d908" alt=""></p>
+<h3>配图 - vCards</h3>
+<p><img src="https://user-images.githubusercontent.com/2666735/59747105-ccd33480-92aa-11e9-90e0-93f295dcb504.png" alt=""></p>
+<h3>今日图 - 还写什么代码，去叙利亚兼职吧</h3>
+<p><img src="http://qn.40zhe.com/16c1a5bb62174c57" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/23.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/23.html</guid><pubDate>Tue, 23 Jul 2019 07:24:40 GMT</pubDate></item><item><title><![CDATA[2019.07.22]]></title><description><![CDATA[<h3>2019.07.22</h3>
+<p>[视频] 张维为教授：防火墙是中国政府的智慧。可以翻墙，但是墙必须要有：<a href="https://www.youtube.com/watch?v=YtxhWwpcwD0">https://www.youtube.com/watch?v=YtxhWwpcwD0</a></p>
+<p>[文章] 使用 TS+React 开发 Chrome 扩展：<a href="https://medium.com/@th.guibert/create-a-chrome-extension-using-react-and-typescript-50e94e14320c">https://medium.com/@th.guibert/create-a-chrome-extension-using-react-and-typescript-50e94e14320c</a></p>
+<p>[类库] npm-run-all 用于并行或顺序执行多个 NPM 脚本的工具：<a href="https://github.com/mysticatea/npm-run-all">https://github.com/mysticatea/npm-run-all</a></p>
+<p>[类库] decamelize 可以把驼峰字符串，转换成横线分割符的类库，看一下代码示例就明白了：<a href="https://github.com/sindresorhus/decamelize">https://github.com/sindresorhus/decamelize</a></p>
+<p>[类库] sort-package-json 可以生成一个 package.json 的文件，默认是按照 NPM 标准顺序输出，可以用于动态生成脚手架的项目配置：<a href="https://github.com/keithamus/sort-package-json">https://github.com/keithamus/sort-package-json</a></p>
+<p>[资源] 最全中华古诗词数据库，唐宋两朝近一万四千古诗人，接近 5.5 万首唐诗加 26 万宋诗。两宋时期 1564 位词人，21050 首词，还有<a href="https://github.com/huangjianke/weapp-poem/">小程序</a>：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
+<h3>示例 - npm-run-all</h3>
+<pre><code class="language-js">{
+  // ...
+  dependencies: {
+    &quot;start&quot;: &quot;npm run postinstall:electron &amp;&amp; npm-run-all -p ng:serve electron:serve&quot;,
+  },
+}
+</code></pre>
+<h3>示例 - sort-package-json</h3>
+<pre><code class="language-js">JSON.stringify(sortPackageJson({
+  dependencies: {},
+  version: '1.0.0',
+  keywords: ['thing'],
+  name: 'foo',
+}), null, 2)
+/* string:
+{
+  &quot;name&quot;: &quot;foo&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;keywords&quot;: [
+    &quot;thing&quot;
+  ],
+  &quot;dependencies&quot;: {}
+}
+*/
+</code></pre>
+<h3>示例 - decamelize</h3>
+<pre><code class="language-js">const decamelize = require('decamelize');
+
+decamelize('unicornRainbow');
+//=&gt; 'unicorn_rainbow'
+
+decamelize('unicornRainbow', '-');
+//=&gt; 'unicorn-rainbow'
+</code></pre>
+<h3>今日图 - 自我递归</h3>
+<p><img src="http://qn.40zhe.com/16c0df17799fbb38" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/22.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/22.html</guid><pubDate>Mon, 22 Jul 2019 05:50:16 GMT</pubDate></item><item><title><![CDATA[2019.07.18]]></title><description><![CDATA[<h3>2019.07.18</h3>
+<p>[新闻] RN 转小程序引擎 Alita V1.1.0 发布，这个思路有点厉害，文档中讲清楚了 Taro 的一个缺陷问题，很棒：<a href="https://juejin.im/post/5d2fdf9751882569b34df358">https://juejin.im/post/5d2fdf9751882569b34df358</a></p>
+<p>[新闻] Leetcode 有多线程同步的题了：<a href="https://leetcode.com/problemset/concurrency/">https://leetcode.com/problemset/concurrency/</a></p>
+<p>[类库] 图片弹层查看插件，不依赖其它类库，1.8W 了才知道：<a href="https://github.com/dimsemenov/PhotoSwipe">https://github.com/dimsemenov/PhotoSwipe</a></p>
+<p>[类库] Vue 的一个组件库，主要控制 CSS Grid 网格布局的，其中 vue-cell 的 width 属性比较魔性 ：<a href="https://github.com/1000ch/vue-grd">https://github.com/1000ch/vue-grd</a></p>
+<p>[工具] 中国家庭关系称谓很麻烦，所以这个作者就开发了一个家庭关系称呼查讯工具，，牛啊：<a href="https://justyy.com/archives/3418">https://justyy.com/archives/3418</a></p>
+<h3>配图 - RN 转小程序引擎 Alita</h3>
+<p><img src="http://qn.40zhe.com/16c03015d6d21d43" alt="">
+<img src="https://areslabs.github.io/alita/static/error003.jpg" alt=""></p>
+<h3>配图 - 家庭关系称呼查讯</h3>
+<p><img src="https://justyy.com/wp-content/uploads/2016/08/chinese-family-tree-names.jpg" alt=""></p>
+<h3>示例 - demoboard</h3>
+<pre><code class="language-vue">&lt;template&gt;
+  &lt;vue-grid align=&quot;stretch&quot; justify=&quot;start&quot;&gt;
+    &lt;vue-cell width=&quot;fill&quot;&gt;fill&lt;/vue-cell&gt;
+    &lt;vue-cell width=&quot;3of12&quot;&gt;3of12&lt;/vue-cell&gt;
+    &lt;vue-cell width=&quot;3of12&quot;&gt;3of12&lt;/vue-cell&gt;
+  &lt;/vue-grid&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { VueGrid, VueCell } from 'vue-grd';
+
+export default {
+  components: {
+    VueGrid,
+    VueCell
+  }
+};
+&lt;/script&gt;
+</code></pre>
+<h3>今日图 - 只会写hello world的你</h3>
+<p><img src="http://qn.40zhe.com/16c02e48a55e5440" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/18.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/18.html</guid><pubDate>Thu, 18 Jul 2019 07:13:56 GMT</pubDate></item><item><title><![CDATA[2019.07.17]]></title><description><![CDATA[<h3>2019.07.17</h3>
+<p>[新闻] 阿里云小程序 Serverless 场景落地，已经出了商用方案了：<a href="https://help.aliyun.com/document_detail/123251.html?spm=a2c4g.11186623.6.548.54035db9lYe5BT">https://help.aliyun.com/document_detail/123251.html?spm=a2c4g.11186623.6.548.54035db9lYe5BT</a></p>
+<p>[文章] 阿里云 Serverless 应用场景：<a href="https://help.aliyun.com/document_detail/65565.html">https://help.aliyun.com/document_detail/65565.html</a></p>
+<p>[类库] demoboard 作者宣称是可以替代 <a href="https://github.com/storybookjs/storybook">Storybook</a> 的一个工具，如果仅仅是作为 React 组件展示的话，可以满足要求，但是它默认的样式<a href="https://demoboard.org/">不是特别好看</a>：<a href="https://github.com/egoist/demoboard">https://github.com/egoist/demoboard</a></p>
+<p>[资源] 大前端面试宝典，也叫图解前端；最终希望通过图文并茂的方式，让你更容易记住一些抽象，难以理解的概念，<a href="https://lucifer.ren/fe-interview/#/">在线阅读地址</a>：<a href="https://github.com/azl397985856/fe-interview">https://github.com/azl397985856/fe-interview</a></p>
+<h3>配图 - 支付宝 Serverless 商业系统落地</h3>
+<p><img src="http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/682654/156275554750650_zh-CN.png" alt=""></p>
+<h3>配图 - 阿里云 Serverless 应用场景</h3>
+<p><img src="http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15081/15481771526791_zh-CN.png" alt=""></p>
+<h3>示例 - demoboard</h3>
+<pre><code class="language-bash">demoboard.section('Buttons')
+  .add('Primary Button', {
+    component: () =&gt; &lt;button&gt;Primary Button&lt;/button&gt;,
+    code: `&lt;button&gt;Primary Button&lt;/button&gt;,`
+    // Optional, default to `js`
+    codeLang: 'js'
+  })
+</code></pre>
+<h3>今日图 - 只会写hello world的你</h3>
+<p><img src="http://qn.40zhe.com/16bfdd2f3b6a9d1b" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/17.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/17.html</guid><pubDate>Thu, 18 Jul 2019 07:13:56 GMT</pubDate></item><item><title><![CDATA[2019.07.16]]></title><description><![CDATA[<h3>2019.07.16</h3>
+<p>[文章] 《Yarn Plug'n'Play 可否助你脱离 node_modules 苦海》：<a href="https://juejin.im/post/5ca97b516fb9a05e132110fd">https://juejin.im/post/5ca97b516fb9a05e132110fd</a></p>
+<p>[文章] 《fullpage.js 这个开源项目怎样从免费到每月 $15000》：<a href="https://mp.weixin.qq.com/s/JXj-TzNvaeRLE-ZrlrmQyQ">https://mp.weixin.qq.com/s/JXj-TzNvaeRLE-ZrlrmQyQ</a></p>
+<p>[类库] Filepath 提供了一套文件系统的接口；使用场景可以是，当开发 CLI 的工具时，可以很方便的获取到用户的宿主目录，来把非系统集成的 Plugin 安装到系统目录下，如 <code>vue add</code>：<a href="https://github.com/kixxauth/filepath">https://github.com/kixxauth/filepath</a></p>
+<p>[工具] 蓝鲸持续集成平台，目前服务于腾讯 10000+ 开发人员，现已成为公司指定的 CI 平台。另外，她也获得行业至今为止唯一一个 4 级认证的 DevOps 标准。牛逼啊：<a href="https://github.com/Tencent/bk-ci">https://github.com/Tencent/bk-ci</a></p>
+<p>[工具] Youtube DL 它支持超过全世界好几百个（不含国内）网站的视频下载，很棒的工具，还支持 ZSH 的 Plugin：<a href="https://github.com/ytdl-org/youtube-dl">https://github.com/ytdl-org/youtube-dl</a></p>
+<h3>配图 - 蓝鲸</h3>
+<p><img src="http://qn.40zhe.com/pipeline.png" alt=""></p>
+<h3>示例 - Filepath</h3>
+<pre><code class="language-js">assert(filepath.home().toString() === '/home/kris');
+</code></pre>
+<h3>示例 - Filepath</h3>
+<pre><code class="language-bash">$ youtube-dl -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re
+</code></pre>
+<h3>今日图 - 班主任专属</h3>
+<p><img src="http://qn.40zhe.com/16a860e181b60cd0" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/16.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/16.html</guid><pubDate>Thu, 18 Jul 2019 07:13:56 GMT</pubDate></item><item><title><![CDATA[2019.07.10]]></title><description><![CDATA[<h3>2019.07.10</h3>
+<p>[新闻] Webpack 发布 v5.0.0-alpha.18，支持 Yarn PNP 啦：<a href="https://github.com/webpack/webpack/releases/tag/v5.0.0-alpha.18">https://github.com/webpack/webpack/releases/tag/v5.0.0-alpha.18</a></p>
+<p>[文章] 一个组件就是一个函数，给我什么样的数据，我就渲染对应的 HTML 内容。这个概念，与我们如今谈论的 Vue 或 React 并没有什么不同。所以，这就是组件的本质：<a href="https://github.com/HcySunYang/vue-design">https://github.com/HcySunYang/vue-design</a></p>
+<p>[文章] 《微前端：未来前端开发的新趋势 — 第四部分》：<a href="https://juejin.im/post/5d23394ae51d45778f076db0">https://juejin.im/post/5d23394ae51d45778f076db0</a></p>
+<p>[类库] 我们想要让低版本的 Webpack 支持 PNP 怎么办，可以使用这个插件来实现：<a href="https://github.com/arcanis/pnp-webpack-plugin">https://github.com/arcanis/pnp-webpack-plugin</a></p>
+<h3>示例</h3>
+<pre><code class="language-js">const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
+
+module.exports = {
+  resolve: {
+    plugins: [
+      PnpWebpackPlugin,
+    ],
+  },
+  resolveLoader: {
+    plugins: [
+      PnpWebpackPlugin.moduleLoader(module),
+    ],
+  },
+};
+</code></pre>
+<h3>今日图 - 这种人我怕不是忍不住我的双手，鼓励一下</h3>
+<p><img src="http://qn.40zhe.com/16bd5a6db1a0f0be" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/10.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/10.html</guid><pubDate>Tue, 16 Jul 2019 08:46:41 GMT</pubDate></item><item><title><![CDATA[2019.07.12]]></title><description><![CDATA[<h3>2019.07.12</h3>
+<p>[文章] 昨天写 Lodash 爆出按钮漏洞了，真的有理解这个漏洞产生的原因，明白漏洞修复背后的原理了吗？如果没有就看看这篇文章吧《Lodash 严重安全漏洞背后你不得不知道的 JavaScript 知识》：<a href="https://juejin.im/post/5d271332f265da1b934e2d48">https://juejin.im/post/5d271332f265da1b934e2d48</a></p>
+<p>[类库] node-temp 可以生成一个临时文件或者目录，用于在单元测试的条件下使用，比如我在开发 CLI 工具时，需要设置 outputFile 的选项，这时就会用到这个库啦：<a href="https://github.com/bruce/node-temp">https://github.com/bruce/node-temp</a></p>
+<p>[类库] license-checker 可以用于做成一个小工具，比如当你负责的项目越来越多时，来验证一下这些项目有没有版权信息的声明，适用于 Lerna 所管理的大型项目：<a href="https://github.com/davglass/license-checker">https://github.com/davglass/license-checker</a></p>
+<p>[工具] 今日热榜，聚合世界焦点；提供各站热点聚合：微信、今日头条、百度、知乎、V2EX、微博、贴吧、豆瓣、天涯、虎扑、Github、华尔街见闻...全网新闻热点排行榜服务、简单高效阅读：<a href="https://tophub.today/">https://tophub.today/</a></p>
+<h3>示例 - node-temp</h3>
+<pre><code class="language-js">var temp = require('temp'),
+    fs   = require('fs'),
+    util  = require('util'),
+    exec = require('child_process').exec;
+
+// Automatically track and cleanup files at exit
+temp.track();
+
+// Fake data
+var myData = &quot;foo\nbar\nfoo\nbaz&quot;;
+
+// Process the data (note: error handling omitted)
+temp.open('myprefix', function(err, info) {
+  if (!err) {
+    fs.write(info.fd, myData);
+    fs.close(info.fd, function(err) {
+      exec(&quot;grep foo '&quot; + info.path + &quot;' | wc -l&quot;, function(err, stdout) {
+        util.puts(stdout.trim());
+      });
+    });
+  }
+}
+</code></pre>
+<h3>示例 - license-checker</h3>
+<pre><code class="language-bash">license-checker
+└─ debug@2.0.0
+   ├─ repository: https://github.com/visionmedia/debug
+   └─ licenses: MIT*
+</code></pre>
+<h3>今日图 - 招聘要求</h3>
+<p><img src="http://qn.40zhe.com/WechatIMG36.jpeg" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/12.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/12.html</guid><pubDate>Mon, 15 Jul 2019 10:09:27 GMT</pubDate></item><item><title><![CDATA[2019.07.15]]></title><description><![CDATA[<h3>2019.07.15</h3>
+<p>[文章] 《腾讯九年，我毕业了》从行业外的人身上学到的最多；无知和弱小不是生存的障碍，傲慢才是：<a href="https://yuguo.us/weblog/leaving-tencent/?from=timeline&amp;isappinstalled=0">https://yuguo.us/weblog/leaving-tencent/?from=timeline&amp;isappinstalled=0</a></p>
+<p>[类库] minimatch 类似于 glob 函数，可以匹配文件或者目录是否符合要求：<a href="https://github.com/isaacs/minimatch">https://github.com/isaacs/minimatch</a></p>
+<p>[类库] RxJS 是 Promise 的超集，集合了观察者模式、迭代器模式和使用集合的函数；解决了一旦调用了 <code>resolve</code> 或者是 <code>reject</code> 之后便返回的问题：<a href="https://github.com/reactivex/rxjs">https://github.com/reactivex/rxjs</a></p>
+<p>[工具] verdaccio 可以快速的搭建出来一套 NPM 私有云，支持 Docker 一键部署，使用于公司级产品，但不能发布到 NpmJS 的情况：<a href="https://github.com/verdaccio/verdaccio">https://github.com/verdaccio/verdaccio</a></p>
+<h3>示例 - minimatch</h3>
+<pre><code class="language-js">var minimatch = require(&quot;minimatch&quot;)
+
+minimatch(&quot;bar.foo&quot;, &quot;*.foo&quot;) // true!
+minimatch(&quot;bar.foo&quot;, &quot;*.bar&quot;) // false!
+minimatch(&quot;bar.foo&quot;, &quot;*.+(bar|foo)&quot;, { debug: true }) // true, and noisy!
+</code></pre>
+<h3>示例 - RxJS</h3>
+<pre><code class="language-js">import { range } from 'rxjs';
+import { map, filter } from 'rxjs/operators';
+
+range(1, 200).pipe(
+  filter(x =&gt; x % 2 === 1),
+  map(x =&gt; x + x)
+).subscribe(x =&gt; console.log(x));
+
+</code></pre>
+<h3>今日图 - 还原度 100%</h3>
+<p><img src="http://qn.40zhe.com/16b68f7c791bd042" alt="">
+<img src="http://qn.40zhe.com/16b68f809d235e0e" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/15.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/15.html</guid><pubDate>Mon, 15 Jul 2019 10:09:27 GMT</pubDate></item><item><title><![CDATA[2019.07.11]]></title><description><![CDATA[<h3>2019.07.11</h3>
+<p>[类库] common-tags 是处理字符串模板（template_strings）所用到的工具，它提供了大量函数，如：处理字符串模板时出现缩进、换行、循环等问题，感觉很好用哈：<a href="https://github.com/declandewet/common-tags">https://github.com/declandewet/common-tags</a></p>
+<p>[新闻] Lodash 被爆出一个高严重性安全漏洞——原型污染漏洞，如果是对外开放的服务，需要尽快升级哈：<a href="https://mp.weixin.qq.com/s/tfZq2PZylGfMjOp8h8eeTw">https://mp.weixin.qq.com/s/tfZq2PZylGfMjOp8h8eeTw</a></p>
+<p>[新闻] 阿里巴巴发布 Aliyun Serverless VS Code 插件，轻松开发阿里云函数计算：<a href="https://mp.weixin.qq.com/s/K-ZB-DvZRA9S3OxBQ9PwZw">https://mp.weixin.qq.com/s/K-ZB-DvZRA9S3OxBQ9PwZw</a></p>
+<p>[文章] 了解什么是微前端：<a href="https://juejin.im/post/5d1f19e3f265da1bab29ce5f">https://juejin.im/post/5d1f19e3f265da1bab29ce5f</a></p>
+<p>[工具] 一款真正的跨平台摸鱼神器，可以更加隐秘性大胆的看小说：<a href="https://github.com/cteams/Thief-Book">https://github.com/cteams/Thief-Book</a></p>
+<h3>示例</h3>
+<pre><code class="language-js">import {html} from 'common-tags'
+let fruits = ['apple', 'orange', 'watermelon']
+html`
+  &lt;div class=&quot;list&quot;&gt;
+    &lt;ul&gt;
+      ${fruits.map(fruit =&gt; `&lt;li&gt;${fruit}&lt;/li&gt;`)}
+      ${'&lt;li&gt;kiwi&lt;/li&gt;\n&lt;li&gt;guava&lt;/li&gt;'}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+`
+</code></pre>
+<pre><code class="language-html">&lt;div class=&quot;list&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;apple&lt;/li&gt;
+    &lt;li&gt;orange&lt;/li&gt;
+    &lt;li&gt;watermelon&lt;/li&gt;
+    &lt;li&gt;kiwi&lt;/li&gt;
+    &lt;li&gt;guava&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+<h3>配图</h3>
+<p><img src="http://qn.40zhe.com/1.png" alt="">
+<img src="http://qn.40zhe.com/2.png" alt="">
+<img src="http://qn.40zhe.com/3.png" alt=""></p>
+<h3>今日图 - 如何证明豹和老虎都是猫科动物</h3>
+<p><img src="http://qn.40zhe.com/16bb5bc8e450a571" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/11.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/11.html</guid><pubDate>Thu, 11 Jul 2019 08:24:48 GMT</pubDate></item><item><title><![CDATA[2019.07.09]]></title><description><![CDATA[<h3>2019.07.09</h3>
+<p>[文章] 独立开发者赚钱经验分享。被动收入是最能带来自由的东西，这个时代的程序员其实在创造被动收入上有天然优势，然而大部分人都在出卖自由为别人打工：<a href="https://github.com/loonggg/DevMoneySharing">https://github.com/loonggg/DevMoneySharing</a></p>
+<p>[文章] 3 分钟教你用原生 JS 实现具有进度监听的文件上传预览组件：<a href="https://juejin.im/post/5d142720f265da1bc4146433">https://juejin.im/post/5d142720f265da1bc4146433</a></p>
+<p>[类库] 一个展示三维模型的 Vue 组件，支持模型操作和模型点击事件，能自动缩放模型到合适大小并校正偏移，支持多种格式的模型，<a href="https://hujiulong.github.io/vue-3d-model/#/demo-basic">演示效果</a>：<a href="https://github.com/hujiulong/vue-3d-model">https://github.com/hujiulong/vue-3d-model</a></p>
+<p>[工具] 百度网盘不限速客户端，使用 GoLang + QT5 实现的：<a href="https://github.com/peterq/pan-light">https://github.com/peterq/pan-light</a></p>
+<h3>配图 - 展示三维模型的 Vue 组件</h3>
+<p><img src="https://raw.githubusercontent.com/hujiulong/vue-3d-model/master/preview.gif" alt=""></p>
+<h3>配图 - 百度网盘不限速客户端</h3>
+<p><img src="https://camo.githubusercontent.com/3d4445cc745252a04706634c0fcc21678e47e3db/68747470733a2f2f71696e69752d63646e2e7065746572712e636e2f70616e2d6c696768742f696d672f73686f745f322e706e67" alt=""></p>
+<h3>今日图 - Docker</h3>
+<p><img src="http://qn.40zhe.com/16bd451fe7b71a22" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/09.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/09.html</guid><pubDate>Wed, 10 Jul 2019 10:59:36 GMT</pubDate></item><item><title><![CDATA[2019.07.02]]></title><description><![CDATA[<h3>2019.07.02</h3>
+<p>[文章] 为什么 Flutter 是跨平台开发的终极之选：<a href="https://www.infoq.cn/article/PqGDuGQYOPs7zuQU-jE1">https://www.infoq.cn/article/PqGDuGQYOPs7zuQU-jE1</a></p>
+<p>[类库] react-diagrams 适用于后台展示流程控制图的效果；比如对于整个项目，我当前所处理的节点是哪；对于销售人员，我跟进人的链路情况是什么，都可以用到这个工具：<a href="https://github.com/projectstorm/react-diagrams">https://github.com/projectstorm/react-diagrams</a></p>
+<p>[类库] Pont 把 swagger、rap、dip 等多种接口文档平台，转换成 Pont 元数据。Pont 利用接口元数据，可以高度定制化生成前端接口层代码，接口 mock 平台和接口测试平台。其中 swagger 数据源，Pont 已经完美支持。并在一些大型项目中使用了近两年，各种高度定制化需求都可以满足：<a href="https://github.com/alibaba/pont">https://github.com/alibaba/pont</a></p>
+<p>[资源] 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点：<a href="https://github.com/haizlin/fe-interview">https://github.com/haizlin/fe-interview</a></p>
+<h3>配图 - Pont</h3>
+<p><img src="https://camo.githubusercontent.com/a7e0ae2522af62877112ef819f6ead28bfe4bb3f/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f54423135705a47493654704b31526a535a4b5058586133557058612d313538342d313039302e706e67" alt=""></p>
+<h3>配图 - react-diagrams</h3>
+<p><img src="http://qn.40zhe.com/example1.jpg" alt="">
+<img src="http://qn.40zhe.com/example2.jpg" alt="">
+<img src="http://qn.40zhe.com/example3.jpg" alt=""></p>
+<h3>今日图 - 谢邀</h3>
+<p><img src="http://qn.40zhe.com/16bad508492b8247" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/02.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/02.html</guid><pubDate>Tue, 09 Jul 2019 02:02:33 GMT</pubDate></item><item><title><![CDATA[2019.07.08]]></title><description><![CDATA[<h3>2019.07.08</h3>
+<p>[文章] 如何设计高扩展的在线网页制作平台，平台做的很棒，可以节省 50% 的人力成本：<a href="https://juejin.im/post/5bd83daee51d4524b50d23b5">https://juejin.im/post/5bd83daee51d4524b50d23b5</a></p>
+<p>[文章] Kubernetes 儿童插图指南，图画的比较好：<a href="https://juejin.im/post/5d1b2a656fb9a07edc0b7058">https://juejin.im/post/5d1b2a656fb9a07edc0b7058</a></p>
+<p>[工具] 正则表达式大全：<a href="https://any86.github.io/any-rule/">https://any86.github.io/any-rule/</a></p>
+<p>[工具] Aria2 的 WebUI 项目，提供了 Docker 环境效果挺好的：<a href="https://github.com/ziahamza/webui-aria2">https://github.com/ziahamza/webui-aria2</a></p>
+<h3>配图 - 如何设计高扩展的在线网页制作平台</h3>
+<p><img src="http://qn.40zhe.com/16711ca10eb32e9f" alt=""></p>
+<h3>配图 - Kubernetes 儿童插图指南</h3>
+<p><img src="http://qn.40zhe.com/16b92601db632f60" alt=""></p>
+<h3>配图 - 正则表达式大全</h3>
+<p><img src="http://qn.40zhe.com/AA468577-CF6E-4086-98A3-FBD14B41D87E.png" alt=""></p>
+<h3>配图 - Aria2 的 WebUI 项目</h3>
+<p><img src="https://raw.githubusercontent.com/ziahamza/webui-aria2/master/screenshots/overview.png" alt=""></p>
+<h3>今日图 - margin-right: -5px</h3>
+<p><img src="http://qn.40zhe.com/16bcfa33dd0226d4" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/08.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/08.html</guid><pubDate>Mon, 08 Jul 2019 07:13:13 GMT</pubDate></item><item><title><![CDATA[2019.07.05]]></title><description><![CDATA[<h3>2019.07.05</h3>
+<p>[文章] 正则表达式学习的网站，通过 <a href="https://regex101.com/r/dmRygT/1">regex101</a> 学生正则表达式，有大量优秀的案例：<a href="https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md#learn-regex">https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md#learn-regex</a></p>
+<p>[文章] jQuery 源码解析；它作为每个前端会用的第一个框架，虽然过时，但却又如此普及，所以想看看它是咋设计的：<a href="https://github.com/AttackXiaoJinJin/jQueryExplain">https://github.com/AttackXiaoJinJin/jQueryExplain</a></p>
+<p>[工具] HTML 到 Sketch 导出解决方案，和 <a href="https://github.com/brainly/html-sketchapp">react-sketchapp</a> 有些类似：<a href="https://github.com/brainly/html-sketchapp">https://github.com/brainly/html-sketchapp</a></p>
+<p>[工具] 一款在线 PS 软件，支持 PSD、Skecth 等格式：<a href="https://ps.gaoding.com/">https://ps.gaoding.com/</a></p>
+<p>[资源] 图解 HTTP 状态码，标题是我起的，比较有意思：<a href="https://http.cat/">https://http.cat/</a></p>
+<h3>配图 - jQuery 源码解析</h3>
+<p><img src="https://user-images.githubusercontent.com/26433572/60570866-04f76e80-9da5-11e9-9513-01b0901976c7.png" alt=""></p>
+<h3>配图 - 正则表达式学习网站</h3>
+<p><img src="http://qn.40zhe.com/fehelper-regex101-com-r-xc9GkU-1-1562304875136.png" alt=""></p>
+<h3>配图 - HTML 到 Sketch 导出解决方案</h3>
+<p><img src="https://camo.githubusercontent.com/c79c8014f5a3f33d5720dfe9d84037c04dff492f/68747470733a2f2f692e696d6775722e636f6d2f79506a4d7746552e706e67" alt=""></p>
+<h3>配图 - 一款在线 PS 软件</h3>
+<p><img src="http://qn.40zhe.com/fehelper-ps-gaoding-com-1562307012583.png" alt=""></p>
+<h3>配图 - 图解 HTTP 状态码</h3>
+<p><img src="http://qn.40zhe.com/%E5%9B%BE%E7%89%87.png" alt=""></p>
+<h3>今日图 - 百度安检</h3>
+<p><img src="http://qn.40zhe.com/16bbc5e14e796c8a" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/05.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/05.html</guid><pubDate>Fri, 05 Jul 2019 06:21:04 GMT</pubDate></item><item><title><![CDATA[2019.07.03]]></title><description><![CDATA[<h3>2019.07.03</h3>
+<p>[类库] 一个非常可爱的 React 卡通人脸库，很有意思：<a href="https://github.com/miukimiu/react-kawaii">https://github.com/miukimiu/react-kawaii</a></p>
+<p>[类库] immer 的 React Hooks 版：<a href="https://github.com/immerjs/use-immer">https://github.com/immerjs/use-immer</a></p>
+<p>[工具] yarn-lock-cli 可以直接修改 yarn.lock 文件中的源地址：<a href="https://github.com/kokororin/yarn-lock-cli">https://github.com/kokororin/yarn-lock-cli</a></p>
+<p>[工具] mirror-config-china 是为中国内地的 Node.js 开发者准备的镜像配置，大大提高 Node 模块安装速度，不仅有淘宝，还有清华等镜像源地址：<a href="https://github.com/gucong3000/mirror-config-china">https://github.com/gucong3000/mirror-config-china</a></p>
+<h3>配图 - 一个非常可爱的 React</h3>
+<p><img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/master/docs/images/react-kawaii-example.gif" alt=""></p>
+<h3>示例 - mirror-config-china</h3>
+<pre><code class="language-sh">npm i -g mirror-config-china --registry=https://registry.npm.taobao.org
+# 查看npm配置
+npm config list
+# 查看环境变量
+source ~/.bashrc &amp;&amp; env
+</code></pre>
+<h3>示例 - use-immer</h3>
+<pre><code class="language-js">import React from &quot;react&quot;;
+import { useImmerReducer } from &quot;use-immer&quot;;
+
+const initialState = { count: 0 };
+
+function reducer(draft, action) {
+  switch (action.type) {
+    case &quot;reset&quot;:
+      return initialState;
+    case &quot;increment&quot;:
+      return void draft.count++;
+    case &quot;decrement&quot;:
+      return void draft.count--;
+  }
+}
+
+function Counter() {
+  const [state, dispatch] = useImmerReducer(reducer, initialState);
+  return (
+    &lt;&gt;
+      Count: {state.count}
+      &lt;button onClick={() =&gt; dispatch({ type: &quot;reset&quot; })}&gt;Reset&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: &quot;increment&quot; })}&gt;+&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: &quot;decrement&quot; })}&gt;-&lt;/button&gt;
+    &lt;/&gt;
+  );
+}
+</code></pre>
+<h3>示例 - yarn-lock-cli</h3>
+<p><strong>In</strong></p>
+<pre><code class="language-yaml"># THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.
+# yarn lockfile v1
+
+react@^15.6.1:
+  version &quot;15.6.2&quot;
+  resolved &quot;http://registry.npm.taobao.org/react/download/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72&quot;
+</code></pre>
+<p><strong>Out</strong></p>
+<pre><code class="language-yaml"># THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.
+# yarn lockfile v1
+
+react@^15.6.1:
+  version &quot;15.6.2&quot;
+  resolved &quot;https://registry.npmjs.org/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72&quot;
+</code></pre>
+<h3>今日图 - 前端真是越来越简单了啊</h3>
+<p><img src="http://qn.40zhe.com/16b9358b7d5d09b1" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/03.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/03.html</guid><pubDate>Fri, 05 Jul 2019 06:15:21 GMT</pubDate></item><item><title><![CDATA[2019.07.01]]></title><description><![CDATA[<h3>2019.07.01</h3>
+<p>[文章] 阿里前端委员会主席圆心：《前端路上的思考》：<a href="https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP">https://www.infoq.cn/article/bLJfJg5_Eq2yOlW5VBaP</a></p>
+<p>[类库] 微软推出的 Office UI，基于 React 的：<a href="https://github.com/OfficeDev/office-ui-fabric-react">https://github.com/OfficeDev/office-ui-fabric-react</a></p>
+<p>[工具] travis-size-report 是 Google 实验室的项目，是 Travis 网站的一个钩子，比较本次构建和上次相比，出现什么变化和文件大小，有点类似于 git diff：<a href="https://github.com/GoogleChromeLabs/travis-size-report">https://github.com/GoogleChromeLabs/travis-size-report</a></p>
+<p>[工具] 上班摸鱼的一个工具；它是个 Chrome 扩展，可以页面上的视频单独提取成一个窗口，就算你的浏览器缩小了，它也会保持悬浮状态：<a href="https://github.com/GoogleChromeLabs/picture-in-picture-chrome-extension">https://github.com/GoogleChromeLabs/picture-in-picture-chrome-extension</a></p>
+<h3>配图 - 前端路上的思考</h3>
+<p><img src="https://static001.infoq.cn/resource/image/4c/81/4c572bd1d4343085c16a595f81c58a81.png" alt=""></p>
+<h3>配图 - Office UI</h3>
+<p><img src="https://user-images.githubusercontent.com/785361/50458071-45b58d00-0915-11e9-90c0-ad8789c99db5.png" alt=""></p>
+<h3>配图 - travis-size-report</h3>
+<p><img src="https://user-images.githubusercontent.com/93594/55636656-3ae38180-57bb-11e9-9fad-e8cf0a262957.png" alt=""></p>
+<h3>今日图 - 当代 App 架构演进</h3>
+<p><img src="http://qn.40zhe.com/16bab4947466f068" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/07/01.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/07/01.html</guid><pubDate>Mon, 01 Jul 2019 08:19:32 GMT</pubDate></item><item><title><![CDATA[2019.06.28]]></title><description><![CDATA[<h3>2019.06.28</h3>
+<p>[文章] 使用 react-window 做长列表的渲染，效果很棒：<a href="https://web.dev/virtualize-long-lists-react-window">https://web.dev/virtualize-long-lists-react-window</a></p>
+<p>[类库] 检测 NPM 包名是个一个合法的，我们做 CLI 插件时，对一个 NPM 包引用前，通常需要做一层检测，这时就能用上它了：<a href="https://github.com/npm/validate-npm-package-name">https://github.com/npm/validate-npm-package-name</a></p>
+<p>[类库] 通过注解的方式，写命令行 CLI 端的框架有中文文档：<a href="https://github.com/WittBulter/func">https://github.com/WittBulter/func</a></p>
+<p>[资源] 免费 SS 账号分享，项目已被五毛盯上，IP 地址会被不定期封锁。在服务器不可用期间，请参考手把手翻墙教程作为备用翻墙工具：<a href="https://github.com/gfw-breaker/ssr-accounts">https://github.com/gfw-breaker/ssr-accounts</a></p>
+<p>[工具] photo-grid 是一款 Sketch 插件，可以很容易的实现类似于瀑布流效果：<a href="https://github.com/perrysmotors/photo-grid">https://github.com/perrysmotors/photo-grid</a></p>
+<h3>配图 - 通过注解的方式，写命令行 CLI 端</h3>
+<p><img src="https://raw.githubusercontent.com/WittBulter/func/master/demo.png" alt=""></p>
+<h3>配图 - photo-grid</h3>
+<p><img src="https://user-images.githubusercontent.com/12557727/39623844-e1a84eb4-4f8e-11e8-850f-2bfb0476f35d.gif" alt=""></p>
+<h3>示例 - validate-npm-package-name</h3>
+<pre><code class="language-js">var validate = require(&quot;validate-npm-package-name&quot;)
+
+validate(&quot;some-package&quot;)
+validate(&quot;example.com&quot;)
+validate(&quot;under_score&quot;)
+validate(&quot;123numeric&quot;)
+validate(&quot;@npm/thingy&quot;)
+validate(&quot;@jane/foo.js&quot;)
+</code></pre>
+<h3>今日图 - 网络延迟</h3>
+<p><img src="http://qn.40zhe.com/16b933103ed67493" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/28.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/28.html</guid><pubDate>Fri, 28 Jun 2019 11:39:12 GMT</pubDate></item><item><title><![CDATA[2019.06.27]]></title><description><![CDATA[<h3>2019.06.27</h3>
+<p>[文章] 《把一生过成两辈子：颠覆你时间观的两个概念》，了解到了纯时间和暗时间：<a href="https://mp.weixin.qq.com/s/CvrbpDE55upLgjjujI7KMA">https://mp.weixin.qq.com/s/CvrbpDE55upLgjjujI7KMA</a></p>
+<p>[文章] 《Webpack 高级配置技巧》，如果你还不清楚怎么能搭建一套符合线上环境的 Webpack 配置，不防看看它：<a href="https://www.robinwieruch.de/webpack-advanced-setup-tutorial/">https://www.robinwieruch.de/webpack-advanced-setup-tutorial/</a></p>
+<p>[类库] 让你的命令行，支持语法高亮：<a href="https://github.com/felixfbecker/cli-highlight">https://github.com/felixfbecker/cli-highlight</a></p>
+<p>[类库] ESLint 支持 GraphQL 语法检查了：<a href="https://github.com/apollographql/eslint-plugin-graphql">https://github.com/apollographql/eslint-plugin-graphql</a></p>
+<p>[类库] PHP 的中国农历（阴历）与阳历（公历）转换与查询工具：<a href="https://github.com/overtrue/chinese-calendar">https://github.com/overtrue/chinese-calendar</a></p>
+<h3>配图 - 让你的命令行，支持语法高亮</h3>
+<p><img src="https://cli-highlight.surge.sh/media/tests.png" alt=""></p>
+<h3>配图 - ESLint 支持 GraphQL 语法检查</h3>
+<p><img src="https://raw.githubusercontent.com/apollographql/eslint-plugin-graphql/master/screenshot.png" alt=""></p>
+<h3>示例 - PHP 的中国农历（阴历）与阳历（公历）转换与查询工具</h3>
+<pre><code class="language-php">use Overtrue\ChineseCalendar\Calendar;
+
+$calendar = new Calendar();
+
+$result = $calendar-&gt;solar(2017, 5, 5); // 阳历
+$result = $calendar-&gt;lunar(2017, 4, 10); // 阴历
+$result = $calendar-&gt;solar(2017, 5, 5, 23) // 阳历，带 $hour 参数
+</code></pre>
+<h3>今日图 - 原型 VS 演示 Demo</h3>
+<p><img src="http://qn.40zhe.com/16b91cc6b5790a80" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/27.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/27.html</guid><pubDate>Thu, 27 Jun 2019 07:08:59 GMT</pubDate></item><item><title><![CDATA[2019.06.24]]></title><description><![CDATA[<h3>2019.06.24</h3>
+<p>[文章] 《微前端技术如何落地》：<a href="https://mp.weixin.qq.com/s/I2Y4N0hwugNV2d6Zk6AdMg">https://mp.weixin.qq.com/s/I2Y4N0hwugNV2d6Zk6AdMg</a></p>
+<p>[文章] 最近 Vue 社区，因为新的 RFC<a href="https://github.com/vuejs/rfcs/pull/42">《Vue3.0 Function API 的 RFC》</a> 展开了多次激烈的争论：<a href="https://news.ycombinator.com/item?id=20237568">https://news.ycombinator.com/item?id=20237568</a></p>
+<p>[类库] vue-function-api 通过这个类库可以提前享受到 Function API：<a href="https://github.com/liximomo/vue-function-api">https://github.com/liximomo/vue-function-api</a></p>
+<p>[工具] mitmproxy 一个开源的抓包工具，支持 Terminal 和交互界面，相比于 Charles 它使用起来很简单：<a href="https://github.com/mitmproxy/mitmproxy/">https://github.com/mitmproxy/mitmproxy/</a></p>
+<h3>配图 - 微前端技术如何落地</h3>
+<p><img src="http://qn.40zhe.com/640-micro.webp" alt=""></p>
+<h3>配图 - mitmproxy</h3>
+<p><img src="https://mitmproxy.org/screenshot.png" alt=""></p>
+<h3>示例 - vue-function-api</h3>
+<pre><code class="language-js">import Vue from 'vue';
+import { plugin, value, computed, watch, onMounted } from 'vue-function-api'
+
+Vue.use(plugin);
+
+new Vue({
+  template: `
+    &lt;div&gt;
+      &lt;span&gt;count is {{ count }}&lt;/span&gt;
+      &lt;span&gt;plusOne is {{ plusOne }}&lt;/span&gt;
+      &lt;button @click=&quot;increment&quot;&gt;count++&lt;/button&gt;
+    &lt;/div&gt;
+  `,
+  setup() {
+    // reactive state
+    const count = value(0);
+    // computed state
+    const plusOne = computed(() =&gt; count.value + 1);
+    // method
+    const increment = () =&gt; {
+      count.value++;
+    };
+    // watch
+    watch(
+      () =&gt; count.value * 2,
+      val =&gt; {
+        console.log(`count * 2 is ${val}`);
+      }
+    );
+    // lifecycle
+    onMounted(() =&gt; {
+      console.log(`mounted`);
+    });
+    // expose bindings on render context
+    return {
+      count,
+      plusOne,
+      increment,
+    };
+  },
+}).$mount('#app');
+</code></pre>
+<h3>今日图 - 我写的代码到可运行的代码</h3>
+<p><img src="http://qn.40zhe.com/16b873fd487172ba" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/24.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/24.html</guid><pubDate>Wed, 26 Jun 2019 06:34:03 GMT</pubDate></item><item><title><![CDATA[2019.06.26]]></title><description><![CDATA[<h3>2019.06.26</h3>
+<p>[新闻] 24 号分享的 vue-function-api 已被 <a href="https://github.com/vuejs/vue-function-api">VueJS 官方收录了</a>，这篇文章也对 RFC 做了一次汇总：<a href="https://dev.to/stefandorresteijn/vuejs-is-dead-long-live-vuejs-1g7f">https://dev.to/stefandorresteijn/vuejs-is-dead-long-live-vuejs-1g7f</a></p>
+<p>[文章] 使用不同的前端框架（React、Vue） 搭配 Single-SPA 构建微前端服务：<a href="https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op">https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op</a></p>
+<p>[类库] antd-doddle 是源于日常中后台系统开发不断的积累，如其名一样，让 AntD 使用更加得心应手，实现业务的快速迭代。其中包含一部分的对 Antd 组件深度封装，一些高频次自定义业务组件，和一些常用方法库的封装，支持按需打包：<a href="https://github.com/closertb/antd-doddle">https://github.com/closertb/antd-doddle</a></p>
+<p>[类库] ts-toolbelt 是 TypeScript 类型集合，使 TypeScript 更加安全，它的目的是提高类型的正确性，同时将一组新的特征集添加到 TypeScript 中：<a href="https://github.com/pirix-gh/ts-toolbelt">https://github.com/pirix-gh/ts-toolbelt</a></p>
+<p>[资源] Docker 镜像，包含（Docker image for Ubuntu Latest + Node Latest and Yarn Latest）：<a href="https://github.com/jansanchez/ubuntu-node-yarn">https://github.com/jansanchez/ubuntu-node-yarn</a></p>
+<h3>配图 - ts-toolbelt</h3>
+<pre><code class="language-ts">import {A, B, C, F, I, N, O, S, T, U} from 'ts-toolbelt'
+// Wonder what these letters mean? Check the docs below
+
+// Merge two `object` together
+type merge = O.Merge&lt;{name: string}, {age?: number}&gt;
+</code></pre>
+<h3>示例 - 使用不同的前端框架（React、Vue） 搭配 Single-SPA 构建微前端服务</h3>
+<pre><code class="language-sh"># renders both apps
+http://localhost:8080/
+
+# renders only react
+http://localhost:8080/react
+
+# renders only vue
+http://localhost:8080/vue
+</code></pre>
+<h3>示例 - vue-function-api</h3>
+<pre><code class="language-vue">&lt;template&gt;
+  &lt;div&gt;
+    &lt;span&gt;count is {{ count }}&lt;/span&gt;
+    &lt;span&gt;plusOne is {{ plusOne }}&lt;/span&gt;
+    &lt;button @click=&quot;increment&quot;&gt;count++&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { value, computed, watch, onMounted } from 'vue'
+
+export default {
+  setup() {
+    // reactive state
+    const count = value(0)
+    // computed state
+    const plusOne = computed(() =&gt; count.value + 1)
+    // method
+    const increment = () =&gt; { count.value++ }
+    // watch
+    watch(() =&gt; count.value * 2, val =&gt; {
+      console.log(`count * 2 is ${val}`)
+    })
+    // lifecycle
+    onMounted(() =&gt; {
+      console.log(`mounted`)
+    })
+    // expose bindings on render context
+    return {
+      count,
+      plusOne,
+      increment
+    }
+  }
+}
+&lt;/script&gt;
+</code></pre>
+<h3>示例 - Docker image for Ubuntu Latest + Node Latest and Yarn Latest</h3>
+<pre><code class="language-docker">FROM ubuntu:latest
+MAINTAINER Jan Sanchez &lt;joejansanchez@gmail.com&gt;
+
+# Setting Enviroment variables
+ENV NODE_VERSION 6.9.5
+ENV NODE_ARCH x64
+ENV TMP /tmp
+ENV NODE_FILEPATH node-v$NODE_VERSION-linux-$NODE_ARCH
+
+# Udpating and Installing dependencies
+RUN apt-get update &amp;&amp; apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    xz-utils \
+    openssl \
+    &amp;&amp; rm -rf /var/lib/apt/lists/*
+
+# Install Nodejs
+RUN curl -SL https://nodejs.org/dist/v$NODE_VERSION/$NODE_FILEPATH.tar.xz -o $TMP/$NODE_FILEPATH.tar.xz \
+    &amp;&amp; cd $TMP/ &amp;&amp; tar -xJf $NODE_FILEPATH.tar.xz &amp;&amp; rm $NODE_FILEPATH.tar.xz \
+    &amp;&amp; mv $NODE_FILEPATH /opt/node \
+    &amp;&amp; ln -sf /opt/node/bin/node /usr/bin/node \
+    &amp;&amp; ln -sf /opt/node/bin/npm /usr/bin/npm
+
+# Install the latest version of Yarn
+RUN curl -SL https://yarnpkg.com/latest.tar.gz -o $TMP/latest.tar.gz \
+    &amp;&amp; cd $TMP/ &amp;&amp; tar -zxf latest.tar.gz &amp;&amp; rm latest.tar.gz \
+    &amp;&amp; mv $TMP/dist /opt/yarn \
+    &amp;&amp; ln -sf /opt/yarn/bin/yarn /usr/bin/yarn
+</code></pre>
+<h3>今日图 - 热心人</h3>
+<p><img src="http://qn.40zhe.com/16b82bb06096fde5" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/26.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/26.html</guid><pubDate>Wed, 26 Jun 2019 06:34:03 GMT</pubDate></item><item><title><![CDATA[2019.06.21]]></title><description><![CDATA[<h3>2019.06.21</h3>
+<p>[文章] 深入理解 CSS Grid，写的很详细，文章质量非常的高：<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a></p>
+<p>[文章] Storybook 中文学习教程：<a href="https://www.learnstorybook.com/react/zh-CN/get-started">https://www.learnstorybook.com/react/zh-CN/get-started</a></p>
+<p>[类库] Axios 支持 React Hooks 调用方式：<a href="https://github.com/use-hooks/react-hooks-axios">https://github.com/use-hooks/react-hooks-axios</a></p>
+<p>[类库] Prism 是语法高亮的库：<a href="https://github.com/PrismJS/prism">https://github.com/PrismJS/prism</a></p>
+<p>[工具] 可以把 React 组件转换成 Sketch 的层，它是由 Airbnb 公司推出的工具，1.3W Start 了我才了解到：<a href="https://github.com/airbnb/react-sketchapp">https://github.com/airbnb/react-sketchapp</a></p>
+<h3>配图 - 深入理解 CSS Grid</h3>
+<p><img src="http://qn.40zhe.com/dddgrid-template-areas.svg" alt=""></p>
+<h3>配图 - Storybook 中文学习教程</h3>
+<p><img src="http://qn.40zhe.com/storybook-relationship.jpg" alt=""></p>
+<h3>配图 - Prism</h3>
+<p><img src="http://qn.40zhe.com/Screen-Shot-2012-07-31-at-18.31.22-.png" alt=""></p>
+<h3>配图 - 可以把 React 组件转换成 Sketch 的层</h3>
+<p><img src="http://qn.40zhe.com/e742cd0e-1ad8-11e7-8751-090f6b2db514.png" alt=""></p>
+<h3>配图 - Axios 支持 React Hooks 调用方式</h3>
+<pre><code class="language-js">import React, { useState } from 'react';
+
+import useAxios from '@use-hooks/axios';
+
+export default function App() {
+  const [gender, setGender] = useState('');
+  const { response, loading, error, reFetch } = useAxios({
+    url: `https://randomuser.me/api/${gender === 'unknown' ? 'unknown' : ''}`,
+    method: 'GET',
+    options: {
+      params: { gender },
+    },
+    trigger: gender,
+    // or
+    // trigger: { gender }
+    forceDispatchEffect: () =&gt; !!gender, // AUTO RUN only if gender is set
+  });
+
+  const { data } = response || {};
+
+  const options = [
+    { gender: 'female', title: 'Female' },
+    { gender: 'male', title: 'Male' },
+    { gender: 'unknown', title: 'Unknown' },
+  ];
+
+  if (loading) return 'loading...';
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;
+        DEMO of
+        &lt;span style={{ color: '#F44336' }}&gt;@use-hooks/axios&lt;/span&gt;
+      &lt;/h2&gt;
+      {options.map(item =&gt; (
+        &lt;div key={item.gender}&gt;
+          &lt;input
+            type=&quot;radio&quot;
+            id={item.gender}
+            value={item.gender}
+            checked={gender === item.gender}
+            onChange={e =&gt; setGender(e.target.value)}
+          /&gt;
+          {item.title}
+        &lt;/div&gt;
+      ))}
+      &lt;button type=&quot;button&quot; onClick={reFetch}&gt;
+        Refresh
+      &lt;/button&gt;
+      &lt;div&gt;
+        {error ? (
+          error.message || 'error'
+        ) : (
+          &lt;textarea
+            cols=&quot;100&quot;
+            rows=&quot;30&quot;
+            defaultValue={JSON.stringify(data || {}, '', 2)}
+          /&gt;
+        )}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<h3>今日图 - 开会</h3>
+<p><img src="http://qn.40zhe.com/16b6f2ce1c41811a" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/21.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/21.html</guid><pubDate>Fri, 21 Jun 2019 04:04:31 GMT</pubDate></item><item><title><![CDATA[2019.06.19]]></title><description><![CDATA[<h3>2019.06.19</h3>
+<p>[发布] 刚刚发现，Ant Design 新出了一个 <code>Empty</code> 的组件，这个组件对于我们公司的业务经常会用到：<a href="https://ant.design/components/empty-cn/">https://ant.design/components/empty-cn/</a></p>
+<p>[新闻] GitHub 支持代码内部的跳转了，点击函数名，可以跳转到函数定义：<a href="https://help.github.com/en/articles/navigating-code-on-github">https://help.github.com/en/articles/navigating-code-on-github</a></p>
+<p>[工具] 在线 CSS Grid 属性对照和生成工具；点击对应的属性，就会将属性直接复制到剪切板：<a href="http://grid.malven.co/">http://grid.malven.co/</a></p>
+<p>[工具] CSS 转换为 SASS/SCSS 的在线工具，可以将你写的 CSS 代码转化为 SASS 或者 SCSS：<a href="http://css2sass.herokuapp.com/">http://css2sass.herokuapp.com/</a></p>
+<h3>配图 - Ant Design Empty</h3>
+<p><img src="http://qn.40zhe.com/AC9BDA12-4937-41DE-88EF-1D5A039173BE.png" alt=""></p>
+<h3>配图 - GitHub 代码内部跳转</h3>
+<p><img src="https://help.github.com/assets/images/help/repository/jump-to-definition-link.png" alt=""></p>
+<h3>配图 - CSS Grid 属性对照和生成工具</h3>
+<p><img src="http://qn.40zhe.com/fehelper-grid-malven-co-1560997613486.png" alt=""></p>
+<h3>配图 - CSS 转换 SASS/SCSS</h3>
+<p><img src="http://qn.40zhe.com/fehelper-css2sass-herokuapp-com-1560995002531.png" alt=""></p>
+<h3>今日图 - 我的工作能力 VS 老板认为我的工作能力</h3>
+<p><img src="http://qn.40zhe.com/16b72609f378a0b0" alt="">
+<img src="http://qn.40zhe.com/16b72609fa8974ad" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/20.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/20.html</guid><pubDate>Thu, 20 Jun 2019 02:29:35 GMT</pubDate></item><item><title><![CDATA[2019.06.18]]></title><description><![CDATA[<h3>2019.06.18</h3>
+<p>[类库] html-to-jsx 是可以把 HTML 转换成 JSX 的工具库；很好理解，我们直接看它的单元测试：<a href="https://github.com/littlehaker/html-to-jsx/blob/master/test/index.js">https://github.com/littlehaker/html-to-jsx/blob/master/test/index.js</a></p>
+<p>[类库] react-hook-form 看库的名字很好理解，是对 React Form 表单包装了一层 Hook 函数，可以用于校验等；但这次主要目的不是分享它，而是分享它另外的一个功能，叫做表单生成器；后续我们团队为了快速的做业务性开发，也会弄表单生成器，我会参考它去做：<a href="https://react-hook-form.com/builder/">https://react-hook-form.com/builder/</a></p>
+<p>[工具] spearmint 是一个客户端的测试工具，提供了一套 GUI 界面，可以方便的渲染组件视图、测试逾期结果、添加 Mock 和测试事件：<a href="https://github.com/spearmintjs/spearmint">https://github.com/spearmintjs/spearmint</a></p>
+<p>[工具] Appium 是针对 APP 的测试框架，多数的测试框架也意味着可以做数据抓取，比如我想抓链家的房源、小红书的搭配信息都可以用它来做：<a href="https://github.com/appium/appium">https://github.com/appium/appium</a></p>
+<h3>配图 - react-hook-form</h3>
+<p><img src="http://qn.40zhe.com/react-hook-form.com_builder_.png" alt=""></p>
+<h3>配图 - spearmint</h3>
+<p><img src="https://camo.githubusercontent.com/9fb26c47c1beac14b3164e49da57a4a1ee2848c4/68747470733a2f2f6c68342e676f6f676c6575736572636f6e74656e742e636f6d2f7a452d74793331493232523750392d7562464962346b6f364d4f42623772312d3536634858363568394163463949734532325268504b4d4564687952304d4a335062714e6f766a31757778463254355f6b6c775a3273576e69586643695866614579736a516748354e52736b6144464e642d544f476365306f544d6e326a506150454746486c4571" alt=""></p>
+<h3>示例 - html-to-jsx</h3>
+<pre><code class="language-sh">describe('html attributes', function() {
+    it('class should be repleaced with className', function() {
+        assert.equal(convert('&lt;div class=&quot;foobar&quot;&gt;&lt;/div&gt;'), '&lt;div className=&quot;foobar&quot;&gt;&lt;/div&gt;');
+    });
+
+    it('for should be repleaced with htmlFor', function() {
+        assert.equal(convert('&lt;label for=&quot;foobar&quot;&gt;&lt;/label&gt;'), '&lt;label htmlFor=&quot;foobar&quot;&gt;&lt;/label&gt;');
+    });
+
+    it('attributes should be camelCased', function() {
+        assert.equal(convert('&lt;input type=&quot;text&quot; maxlength=&quot;10&quot; minlength=&quot;0&quot;/&gt;'), '&lt;input type=&quot;text&quot; maxLength=&quot;10&quot; minLength=&quot;0&quot;/&gt;');
+    });
+});
+</code></pre>
+<h3>今日图 - PM 讲需求</h3>
+<p><img src="http://qn.40zhe.com/16b68451c068ff94" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/18.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/18.html</guid><pubDate>Tue, 18 Jun 2019 08:34:41 GMT</pubDate></item><item><title><![CDATA[2019.06.17]]></title><description><![CDATA[<h3>2019.06.17</h3>
+<p>[文章] Recompose 是一个 React 实用库，用于函数组件和高阶组件。把它想象成 React 的 lodash：<a href="https://www.jianshu.com/p/7f619be29e52">https://www.jianshu.com/p/7f619be29e52</a></p>
+<p>[类库] 一个集成了下拉刷新、上拉加载、无限滚动加载的 Vue 组件：<a href="https://github.com/stackjie/vue-pull-to/blob/master/README.zh-CN.md">https://github.com/stackjie/vue-pull-to/blob/master/README.zh-CN.md</a></p>
+<p>[类库] Swell 是专门为手机浏览器设计的 Web Terminal 工具，自带键盘，可扩展为命令联想功能：<a href="https://github.com/wcchoi/swell.sh">https://github.com/wcchoi/swell.sh</a></p>
+<p>[资源] 《前端架构：从入门到微前端》：<a href="https://github.com/phodal/aofe.images">https://github.com/phodal/aofe.images</a></p>
+<h3>配图 - vue-pull-to</h3>
+<p><img src="http://qn.40zhe.com/2D842C3D-26C4-4C07-8DB6-6304C5805DC9.png" alt=""></p>
+<h3>配图 - Swell</h3>
+<p><img src="https://github.com/wcchoi/swell.sh/raw/master/demo.gif" alt=""></p>
+<h3>配图 - 从入门到微前端</h3>
+<p><img src="http://qn.40zhe.com/58D43E04-0425-4FA5-93B2-12937046C5DE.png" alt=""></p>
+<h3>示例 - Recompose</h3>
+<pre><code class="language-sh">const counterReducer = (count, action) =&gt; {
+  switch (action.type) {
+  case INCREMENT:
+    return count + 1
+  case DECREMENT:
+    return count - 1
+  default:
+    return count
+  }
+}
+
+const enhance = withReducer('counter', 'dispatch', counterReducer, 0)
+const Counter = enhance(({ counter, dispatch }) =&gt;
+  &lt;div&gt;
+    Count: {counter}
+    &lt;button onClick={() =&gt; dispatch({ type: INCREMENT })}&gt;Increment&lt;/button&gt;
+    &lt;button onClick={() =&gt; dispatch({ type: DECREMENT })}&gt;Decrement&lt;/button&gt;
+  &lt;/div&gt;
+)
+</code></pre>
+<h3>今日图 - 一个简短的项目背后</h3>
+<p><img src="http://qn.40zhe.com/16b5de0f120736b6" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/17.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/17.html</guid><pubDate>Mon, 17 Jun 2019 08:59:44 GMT</pubDate></item><item><title><![CDATA[2019.06.14]]></title><description><![CDATA[<h3>2019.06.14</h3>
+<p>[新闻] Vant 发布 2.0 版本，同时还发布了一项计划；计划在今年下半年推出 VantWeapp 1.0 版本，目标是对标 Vant 2.0 版本，将大部分新组件和新功能同步到小程序端：<a href="https://youzan.github.io/vant/#/zh-CN/changelog">https://youzan.github.io/vant/#/zh-CN/changelog</a></p>
+<p>[文章] 《手机地图竞品分析》，看看别人是怎么做竞品分析的：<a href="https://www.yuque.com/qiurushi/ggqocv/tlmdhf">https://www.yuque.com/qiurushi/ggqocv/tlmdhf</a></p>
+<p>[类库] 生成一份符合开源项目的 <code>README.md</code> 文件：<a href="https://github.com/kefranabg/readme-md-generator">https://github.com/kefranabg/readme-md-generator</a></p>
+<p>[工具] Crontab 时间转换工具：<a href="https://tool.lu/crontab/">https://tool.lu/crontab/</a></p>
+<p>[工具] 小米推出的 SQL 优化与改写工具：<a href="https://github.com/XiaoMi/soar">https://github.com/XiaoMi/soar</a></p>
+<p>[工具] Hack News 体验升级插件，有点像前几天分享的 GitHub 体验升级：<a href="https://github.com/plibither8/refined-hacker-news">https://github.com/plibither8/refined-hacker-news</a></p>
+<h3>配图 - Vant 2.0</h3>
+<p><img src="https://img.yzcdn.cn/public_files/2019/06/10/141ac9b67c06be0811c86c4c1c571c9d.png" alt=""></p>
+<h3>配图 - 手机地图竞品分析</h3>
+<p><img src="https://cdn.nlark.com/yuque/0/2018/png/184416/1543388697175-ed84c43e-3200-48f7-adc4-bc305dfa42c6.png" alt=""></p>
+<h3>配图 - 生成 README.md</h3>
+<p><img src="https://user-images.githubusercontent.com/9840435/59459416-07f1e580-8e1d-11e9-89e7-6a5e6b373e93.gif" alt=""></p>
+<h3>配图 - Crontab</h3>
+<p><img src="http://qn.40zhe.com/1560496482012.jpg" alt=""></p>
+<h3>配图 - Hack News 体验升级</h3>
+<p><img src="https://raw.githubusercontent.com/plibither8/refined-hacker-news/master/assets/demos/options-bar.gif" alt=""></p>
+<h3>示例 - soar</h3>
+<pre><code class="language-sh">echo 'select * from film' | ./soar
+</code></pre>
+<h3>今日图 - 测试环境 VS 生产环境</h3>
+<p><img src="http://qn.40zhe.com/16b536bd80d06d4d" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/14.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/14.html</guid><pubDate>Fri, 14 Jun 2019 07:25:31 GMT</pubDate></item><item><title><![CDATA[2019.06.13]]></title><description><![CDATA[<h3>2019.06.13</h3>
+<p>[文章] 《我在淘宝做前端的这三年 — 第三年》：<a href="https://juejin.im/post/5c811e426fb9a04a0c2f3bdb">https://juejin.im/post/5c811e426fb9a04a0c2f3bdb</a></p>
+<p>[文章] 使用 Puppeteer 搭建统一海报渲染服务：<a href="https://mp.weixin.qq.com/s/fpdz1KK0kkogFxAmAq7VkA">https://mp.weixin.qq.com/s/fpdz1KK0kkogFxAmAq7VkA</a></p>
+<p>[类库] ESLint 检查 GraphQL 语法是否正确：<a href="https://github.com/apollographql/eslint-plugin-graphql">https://github.com/apollographql/eslint-plugin-graphql</a></p>
+<p>[类库] memfs 是一个基于内存的 “文件操作 API” 但它不直接的写入磁盘中，而是内存中适用于 Mock 生成：<a href="https://github.com/streamich/memfs">https://github.com/streamich/memfs</a></p>
+<h3>配图 - 我在淘宝做前端的这三年</h3>
+<p><img src="http://qn.40zhe.com/169585e26c89a2e6" alt=""></p>
+<h3>配图 - Puppeteer</h3>
+<p><img src="http://qn.40zhe.com/640-youzan.webp" alt=""></p>
+<h3>配图 - ESLint GraphQL</h3>
+<p><img src="https://github.com/apollostack/eslint-plugin-graphql/raw/master/screenshot.png" alt=""></p>
+<h3>示例 - memfs</h3>
+<pre><code class="language-js">import { fs } from 'memfs';
+
+fs.writeFileSync('/hello.txt', 'World!');
+fs.readFileSync('/hello.txt', 'utf8'); // World!
+</code></pre>
+<h3>今日图 - 灵魂一米八</h3>
+<p><img src="http://qn.40zhe.com/16b4040ec7c834f6" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/13.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/13.html</guid><pubDate>Fri, 14 Jun 2019 07:21:27 GMT</pubDate></item><item><title><![CDATA[2019.06.12]]></title><description><![CDATA[<h3>2019.06.12</h3>
+<p>[新闻] VueConf 2019 尤雨溪演讲总结：<a href="https://mp.weixin.qq.com/s/6N6tuUEmS7eUOg82XQw8EA">https://mp.weixin.qq.com/s/6N6tuUEmS7eUOg82XQw8EA</a></p>
+<p>[类库] RxDB 是一个 JavaScript 客户端数据库，主要用于浏览器、NodeJS、Electron、Cordova、React-Native 以及其他任何 JavaScript 运行环境：<a href="https://github.com/pubkey/rxdb">https://github.com/pubkey/rxdb</a></p>
+<p>[类库] 有时我们需要在浏览器上生成文件并保存到本地，这个借助 FileSaver.js 就可以很方便地实现。FileSaver.js 是一款基于 HTML5 完成文件保存插件，它可以帮你直接从网页中导出多种格式文件：<a href="https://github.com/eligrey/FileSaver.js">https://github.com/eligrey/FileSaver.js</a></p>
+<p>[类库] resolve-bin 是通过检查 node_modules 各个包中的 <code>package.json</code> bin 字段，来解析指定包的 bin 文件目录 ：<a href="https://github.com/thlorenz/resolve-bin">https://github.com/thlorenz/resolve-bin</a></p>
+<h3>示例 - RxDB</h3>
+<pre><code class="language-js">import RxDB from 'rxdb';
+const db = await RxDB.create({
+    name: 'heroesdb',
+    adapter: 'websql',
+    password: 'myLongAndStupidPassword', // optional
+    multiInstance: true                  // default: true
+  });                                                       // create database
+
+await db.collection({name: 'heroes', schema: mySchema});    // create collection
+db.heroes.insert({ name: 'Bob' });                          // insert document
+</code></pre>
+<h3>示例 - FileSaver.js</h3>
+<pre><code class="language-js">var FileSaver = require('file-saver');
+var blob = new Blob([&quot;Hello, world!&quot;], {type: &quot;text/plain;charset=utf-8&quot;});
+FileSaver.saveAs(blob, &quot;hello world.txt&quot;);
+</code></pre>
+<h3>示例 - resolve-bin</h3>
+<pre><code class="language-js">var resolveBin = require('resolve-bin');
+
+// package.json: &quot;bin&quot;: &quot;bin/tap.js&quot;
+resolveBin('tap', function (err, bin) {
+  if (err) return console.error(err);
+  console.log(bin);  
+});
+
+// =&gt; [..]/resolve-bin/node_modules/tap/bin/tap.js
+</code></pre>
+<h3>配图 - VueConf 2019 尤雨溪演讲总结</h3>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/7jYkol4OxjTKo9acAeibOZLkZSLTHyN2FHAaVQibW77ibwgO77LvjF33nuK1NnzjVT7Y0bOJgvbCAdGdytJWtYJJA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt=""></p>
+<h3>今日图 - 工作的我 VS 下班的我</h3>
+<p><img src="http://qn.40zhe.com/16b4ae46b859bdbf" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/12.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/12.html</guid><pubDate>Fri, 14 Jun 2019 07:21:27 GMT</pubDate></item><item><title><![CDATA[2019.06.11]]></title><description><![CDATA[<h3>2019.06.11</h3>
+<p>[新闻] Visual Studio Code 1.35.0 发布；远程开发 (Preview) 可在稳定版使用、折叠所有列表和树的命令，快捷键是 <code>⌘←</code>、更好的合并提示 <code>Compare Changes</code>：<a href="https://code.visualstudio.com/updates/v1_35#_remote-development-preview">https://code.visualstudio.com/updates/v1_35#_remote-development-preview</a></p>
+<p>[类库] Web 版的 Terminal，VSCode 的 Terminal 就在用它：<a href="https://github.com/xtermjs/xterm.js">https://github.com/xtermjs/xterm.js</a></p>
+<p>[类库] TypeScript + Babel = TSBB，基于 TypeScript 零配置的 CLI 工具：<a href="https://github.com/jaywcjlove/tsbb">https://github.com/jaywcjlove/tsbb</a></p>
+<p>[工具] 你的时间去哪了？《Toggl 桌面计时器介绍》：<a href="https://sspai.com/post/44349">https://sspai.com/post/44349</a></p>
+<h3>配图 - Visual Studio Code 1.35.0 发布</h3>
+<p><img src="https://code.visualstudio.com/assets/updates/1_35/compare-conflict.gif" alt=""></p>
+<h3>配图 - XTerm</h3>
+<p><img src="https://img-blog.csdn.net/20180919142214625?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4bG15Y3NkbmZyZWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
+<h3>配图 - Toggl</h3>
+<p><img src="https://cdn.sspai.com/2018/04/28/9a71a2be39d875008f9196d97122b6d5.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt=""></p>
+<h3>示例 - TSBB</h3>
+<pre><code class="language-sh">$ npx tsbb create my-project
+$ cd my-project
+
+$ npm run watch # Listen compile .ts files.
+$ npm run build # compile .ts files.
+$ npm start
+</code></pre>
+<h3>今日图 - 安慰程序员的方法</h3>
+<p><img src="http://qn.40zhe.com/16b39c3e0a3096fa" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/11.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/11.html</guid><pubDate>Tue, 11 Jun 2019 02:43:21 GMT</pubDate></item><item><title><![CDATA[2019.06.10]]></title><description><![CDATA[<h3>2019.06.10</h3>
+<p>[新闻] 尽管微软已决定基于 Chromium 内核开发 Microsoft Edge，但过时且年迈的 IE 并不会很快消失，毕竟许多企业客户依然存在专为 IE 打造应用的需求。有鉴于此，微软承诺为 Chromium 版 Edge 浏览器带来 IE 兼容性，最近也在积极将 IE 内核集成到 Chromium 版 Edge 浏览器中：<a href="https://www.cnbeta.com/articles/tech/854877.htm">https://www.cnbeta.com/articles/tech/854877.htm</a></p>
+<p>[新闻] 如果你是一名 Apache 项目的 committer，将会获得由 JetBrains 提供的 “全家桶” 订阅服务 —— 免费使用 JetBrains 的所有 IDE，包括 WebStrom、IntelliJ IDEA、PyCharm 和 GoLand，以及其他桌面工具：<a href="https://www.oschina.net/news/107217/jetbrains-supports-the-apache-software-foundation">https://www.oschina.net/news/107217/jetbrains-supports-the-apache-software-foundation</a></p>
+<p>[类库] 微信秘书库：<a href="https://github.com/Chatie/wechaty">https://github.com/Chatie/wechaty</a></p>
+<blockquote>
+<p>你想不想有个小秘书定时提醒你将要做的事情？
+你是否为忘记一些纪念日而懊恼？
+你是不是下班还记得拿快递，到家后才发现忘记了？</p>
+</blockquote>
+<p>[资源] 2019 年最新总结，从程序员到 CTO，从专业走向卓越，分享大牛企业内部 pdf 与 PPT：<a href="https://github.com/0voice/from_coder_to_expert">https://github.com/0voice/from_coder_to_expert</a></p>
+<p>[资源] 第三届 Vue.js 开发者大会 PPT：<a href="https://mp.weixin.qq.com/s/9Ml1DCpWhuCw3nIvpoYFnQ">https://mp.weixin.qq.com/s/9Ml1DCpWhuCw3nIvpoYFnQ</a></p>
+<h3>配图 - 微信小秘书</h3>
+<p><img src="https://blog.chatie.io/download/2019/node-wechaty-1.jpeg" alt=""></p>
+<h3>配图 - 第三届 Vue.js 开发者大会 PPT</h3>
+<p><img src="http://qn.40zhe.com/640.webp" alt=""></p>
+<h3>配图 - Apache committer 福利</h3>
+<p><img src="https://static.oschina.net/uploads/space/2019/0604/184147_zyZZ_2720166.png" alt=""></p>
+<h3>示例 - 微信秘书库</h3>
+<pre><code class="language-js">const { Wechaty } = require('wechaty') // import { Wechaty } from 'wechaty'
+
+Wechaty.instance() // Global Instance
+.on('scan', (qrcode, status) =&gt; console.log(`Scan QR Code to login: ${status}\nhttps://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qrcode)}`))
+.on('login',            user =&gt; console.log(`User ${user} logined`))
+.on('message',       message =&gt; console.log(`Message: ${message}`))
+.start()
+</code></pre>
+<h3>今日图 - 运维日常</h3>
+<p><img src="http://qn.40zhe.com/16b3f74b429eac02" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/10.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/10.html</guid><pubDate>Mon, 10 Jun 2019 04:58:43 GMT</pubDate></item><item><title><![CDATA[2019.06.06]]></title><description><![CDATA[<h3>2019.06.06</h3>
+<p>[文章] urql 是 GraphQL 的客户端；适用于小型和大型的项目，可用于生产环境：<a href="https://formidable.com/blog/2019/urql-2019/">https://formidable.com/blog/2019/urql-2019/</a></p>
+<p>[文章] 《用 JavaScript 实现编译器和解释器》的一篇教程：<a href="https://hsiaosiyuan0.gitbook.io/icj/part1/1-3-hi">https://hsiaosiyuan0.gitbook.io/icj/part1/1-3-hi</a></p>
+<p>[类库] React Spring 是一个动画库，类似于阿里的 Ant Motion，更多的效果可以打开官网看 <a href="https://www.react-spring.io/docs/hooks/basics">Demo</a>：<a href="https://github.com/react-spring/react-spring">https://github.com/react-spring/react-spring</a></p>
+<p>[资源] 受到 vue-server-render 的启发；该作者写了一篇简单的 React SSR 方案；《React Server Renderer》：<a href="https://github.com/JounQin/react-server-renderer">https://github.com/JounQin/react-server-renderer</a></p>
+<p>[工具] 专利检索及分析的网站，适用于高薪企业申请专利做查询使用：<a href="http://www.pss-system.gov.cn/sipopublicsearch/portal/uiIndex.shtml">http://www.pss-system.gov.cn/sipopublicsearch/portal/uiIndex.shtml</a></p>
+<h3>配图 - React Spring</h3>
+<p><img src="https://camo.githubusercontent.com/cd094e46e3b00eb051df17f961b964ea72872096/68747470733a2f2f692e696d6775722e636f6d2f374343483531722e676966" alt=""></p>
+<h3>配图 - 用 JavaScript 实现编译器和解释器</h3>
+<p><img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LgNGo_6-v1Ccmg6RDxd%2F-LgNJ_QQQAfNB_oXIpym%2F-LgNJa7_kEthRNxpQUtI%2Fprog.png?generation=1559481184139493&amp;alt=media" alt="">
+<img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LgNGo_6-v1Ccmg6RDxd%2F-LgNJ_QQQAfNB_oXIpym%2F-LgNJa7b9gomcqVMZbgr%2Fsay_hi.png?generation=1559481183462562&amp;alt=media" alt="">
+<img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LgNGo_6-v1Ccmg6RDxd%2F-LgNJ_QQQAfNB_oXIpym%2F-LgNJa7dKZ80rHY0MjtV%2FSTRING.png?generation=1559481183580185&amp;alt=media" alt=""></p>
+<h3>配图 - React Server Renderer</h3>
+<p><img src="https://cloud.githubusercontent.com/assets/499550/17607895/786a415a-5fee-11e6-9c11-45a2cfdf085c.png" alt=""></p>
+<h3>示例 - urql</h3>
+<pre><code class="language-js">import { Provider, createClient } from 'urql';
+
+const client = createClient({
+  url: 'http://localhost:1234/graphql', // Your GraphQL endpoint here
+});
+
+ReactDOM.render(
+  &lt;Provider value={client}&gt;
+    &lt;YourApp /&gt;
+  &lt;/Provider&gt;,
+  document.body
+</code></pre>
+<pre><code class="language-js">import { Query } from 'urql';
+
+&lt;Query query=&quot;{ todos { id } }&quot;&gt;
+  {({ fetching, data }) =&gt;
+    fetching ? &lt;Loading /&gt; : &lt;List data={data.todos} /&gt;
+  }
+&lt;/Query&gt;;
+</code></pre>
+<pre><code class="language-js">import { useQuery } from 'urql';
+
+const YourComponent = () =&gt; {
+  const [{ fetching, data }] = useQuery({ query: `{ todos { id } }` });
+  return fetching ? &lt;Loading /&gt; : &lt;List data={data.todos} /&gt;;
+};
+</code></pre>
+<h3>今日图 - 暗示</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/31/16b0cccd1be34642?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/06.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/06.html</guid><pubDate>Thu, 06 Jun 2019 02:52:00 GMT</pubDate></item><item><title><![CDATA[2019.06.05]]></title><description><![CDATA[<h3>2019.06.05</h3>
+<p>[文章] 《使用 Serverless 为后端服务开发一个有趣的 Chrome 扩展程序》：<a href="https://juejin.im/post/5cf7048b518825064000652e">https://juejin.im/post/5cf7048b518825064000652e</a></p>
+<blockquote>
+<p>Serverless 是最近一个非常火热的话题，在文章的开始，我们必须澄清 Serverless 并不是按照字面理解上的“无服务器”，其准确含义是表示对于开发者而言，不再需要关注大部分与服务器相关的事物，比如服务器的选购、服务器系统环境、日志收集、系统监控、负载均衡等琐事，这些重复且复杂的活都交给 Serverless 平台即可，开发者只需要专注业务逻辑的开发。</p>
+</blockquote>
+<p>[文章] 阿里前端 P7 架构图谱，大家可以从这个要求，来看一下自己是否达标：<a href="https://juejin.im/post/5cf5f358e51d45778f076ce5">https://juejin.im/post/5cf5f358e51d45778f076ce5</a></p>
+<p>[类库] tsdef 是 TypeScript 类型的扩充库，对于来发框架和 CLI 时特别有用：<a href="https://github.com/joonhocho/tsdef">https://github.com/joonhocho/tsdef</a></p>
+<p>[工具] NPM 镜像源管理工具：<a href="https://github.com/Pana/nrm">https://github.com/Pana/nrm</a></p>
+<h3>配图 - 使用 Serverless 为后端服务开发一个有趣的 Chrome 扩展程序</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/5/16b24e9d13641cf9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>配图 - 阿里前端 P7 架构图谱</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/4/16b20be87df553f4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>示例 - NPM 镜像源管理</h3>
+<pre><code class="language-sh">$ nrm ls
+
+* npm -----  https://registry.npmjs.org/
+  cnpm ----  http://r.cnpmjs.org/
+  taobao --  https://registry.npm.taobao.org/
+  nj ------  https://registry.nodejitsu.com/
+  skimdb -- https://skimdb.npmjs.com/registry
+</code></pre>
+<h3>示例 - TypeScript 类型扩充</h3>
+<pre><code class="language-ts">import { Nullable, NonNull } from 'tsdef';
+
+const nullableString: Nullable&lt;string&gt; = null; // ok
+
+const nonNullString: NonNull&lt;string | null&gt; = null; // error
+</code></pre>
+<h3>今日图 - 惹不起惹不起</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/5/16b25bda0c1aeea1?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/05.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/05.html</guid><pubDate>Wed, 05 Jun 2019 08:50:38 GMT</pubDate></item><item><title><![CDATA[2019.05.31]]></title><description><![CDATA[<h3>2019.05.31</h3>
+<p>[工具] 一个在线表格转换工具，可以把表格转换成 Markdown、CSV、JSON、XML 等格式：<a href="https://tableconvert.com/?output=text&amp;import=example">https://tableconvert.com/?output=text&amp;import=example</a></p>
+<p>[类库] less-plugin-npm-import 是允许从 NPM 包中，导入 Less 文件：<a href="https://github.com/less/less-plugin-npm-import">https://github.com/less/less-plugin-npm-import</a></p>
+<p>[类库] temp-dir 是用于取系统临时目录的工具，用于解决 os.temdir() 符号链接的问题：<a href="https://github.com/sindresorhus/temp-dir">https://github.com/sindresorhus/temp-dir</a></p>
+<p>[类库] Gulp-file 是可以在 Gulp 中，用 if 条件来进行后续处理；比如当前环境是生产时，才进行 uglify 等：<a href="https://github.com/robrich/gulp-if">https://github.com/robrich/gulp-if</a></p>
+<h3>配图 - 表格转换工具</h3>
+<p><img src="http://qn.40zhe.com/6CC71798-CE7C-472B-B747-D1D8552EB08A.png" alt=""></p>
+<h3>配图 - Gulp-file</h3>
+<p><img src="https://camo.githubusercontent.com/85deb8ed53ffdb91ef4278605041127e69adc7cb/68747470733a2f2f7261776769746875622e636f6d2f726f62726963682f67756c702d69662f6d61737465722f696d672f636f6e646974696f6e2e737667" alt=""></p>
+<h3>示例 - Gulp-file</h3>
+<pre><code class="language-js">var gulpif = require('gulp-if');
+var uglify = require('gulp-uglify');
+
+var condition = true; // TODO: add business logic
+
+gulp.task('task', function() {
+  gulp.src('./src/*.js')
+    .pipe(gulpif(condition, uglify()))
+    .pipe(gulp.dest('./dist/'));
+});
+</code></pre>
+<h3>示例 - less-plugin-npm-import</h3>
+<pre><code class="language-less">@import &quot;npm://packagename/path/to/file.less&quot;;
+</code></pre>
+<h3>示例 - temp-dir</h3>
+<pre><code class="language-js">const tempDirectory = require('temp-dir');
+
+console.log(tempDirectory);
+//=&gt; '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T'
+
+console.log(require('os').tmpdir());
+//=&gt; '/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T' // &lt;= Symlink
+</code></pre>
+<h3>今日图 - 新手 VS 工作 3 年老司机的工作态度</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/30/16b06e06a0c681af?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/31.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/31.html</guid><pubDate>Tue, 04 Jun 2019 02:37:11 GMT</pubDate></item><item><title><![CDATA[2019.06.04]]></title><description><![CDATA[<h3>2019.06.04</h3>
+<p>[新闻] Flutter for Web 发布，这使得 Flutter 程序可以直接运行在任何浏览器上，同时 Flutter 团队把自己的使命扩展成打造在任何屏幕上创造美好体验的最佳框架，<a href="https://www.nytimes.com/games/prototype/kenken#/">演示效果</a>：<a href="https://github.com/flutter/flutter_web">https://github.com/flutter/flutter_web</a></p>
+<p>[新闻] 滴滴小程序框架 Mpx 发布 2.0，支持小程序跨平台开发，可直接转换已有微信小程序：<a href="https://github.com/didi/mpx">https://github.com/didi/mpx</a></p>
+<p>[文章] Medium 原文翻译《我从来不理解 JavaScript 闭包，直到有人这样向我解释它》：<a href="https://juejin.im/post/5cf468a9f265da1bb77652aa">https://juejin.im/post/5cf468a9f265da1bb77652aa</a></p>
+<p>[类库] 在 Webpack 启动时他会自动创建一个新进程去做 type checking，可以解决 Vue for TS 版本打包过慢的问题：<a href="https://github.com/Realytics/fork-ts-checker-webpack-plugin">https://github.com/Realytics/fork-ts-checker-webpack-plugin</a></p>
+<h3>配图 - Flutter for Web</h3>
+<p><img src="https://flutter.dev/images/Dart-framework-v-browser-framework.png" alt=""></p>
+<h3>配图 - 滴滴小程序框架 Mpx</h3>
+<p><img src="https://dpubstatic.udache.com/static/dpubimg/4cb54489-b99d-4560-97aa-68f756730131.jpeg" alt=""></p>
+<h3>今日图 - 碰瓷教学</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/3/16b1c4ddef5d24dc?imageView2/2/w/800/q/100" alt="">
+<img src="https://user-gold-cdn.xitu.io/2019/6/3/16b1c4e6c72bdeda?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/04.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/04.html</guid><pubDate>Tue, 04 Jun 2019 02:37:11 GMT</pubDate></item><item><title><![CDATA[2019.06.03]]></title><description><![CDATA[<h3>2019.06.03</h3>
+<p>[新闻] TypeScript 3.5 发布，构建时间减少 68%、新增 Omit 类型、UMD 全局访问等等：<a href="https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/">https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/</a></p>
+<p>[工具] 有些算法很难在短时间内很好的理解，所以 algorithm-visualizer 提供了一套可视化学习算法的平台，它提供了一个实时的效果，和 NodeJS、Java 代码的案例，能实时看到当前代码执行的是哪段；我学习归并排序时，对我帮助挺大；说多少，不如看一下效果图，<a href="https://algorithm-visualizer.org/brute-force/selection-sort">演示效果</a>：<a href="https://github.com/algorithm-visualizer/algorithm-visualizer">https://github.com/algorithm-visualizer/algorithm-visualizer</a></p>
+<p>[技巧] VSCode 新增了 Shrink/expand selection 操作，和 Vim 的 <code>di(</code> 效果一样：<a href="https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection">https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection</a></p>
+<p>[类库] 小红书用的 HTML5 视频播放器：<a href="http://dplayer.js.org/#/">http://dplayer.js.org/#/</a></p>
+<h3>配图 - algorithm-visualizer</h3>
+<p><img src="https://raw.githubusercontent.com/algorithm-visualizer/algorithm-visualizer/master/branding/screenshot.png" alt=""></p>
+<h3>配图 - Shrink/expand selection</h3>
+<p><img src="https://code.visualstudio.com/assets/docs/editor/codebasics/expandselection.gif" alt=""></p>
+<h3>配图 - 小红书用的 HTML5 视频播放器</h3>
+<p><img src="https://camo.githubusercontent.com/0ade48acd75de2208c39e3c499f84c2fbfce47ba/687474703a2f2f692e696d6775722e636f6d2f323037636833362e6a7067" alt=""></p>
+<h3>示例 - TypeScript 3.5</h3>
+<pre><code class="language-ts">type Person = {
+    name: string;
+    age: number;
+    location: string;
+};
+
+type RemainingKeys = Exclude&lt;keyof Person, &quot;location&quot;&gt;;
+
+type QuantumPerson = Pick&lt;Person, RemainingKeys&gt;;
+
+// equivalent to
+type QuantumPerson = {
+    name: string;
+    age: number;
+};
+</code></pre>
+<h3>今日图 - 分支合并</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/3/16b1b66464aa9593?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/06/03.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/06/03.html</guid><pubDate>Mon, 03 Jun 2019 05:10:04 GMT</pubDate></item><item><title><![CDATA[2019.05.30]]></title><description><![CDATA[<h3>2019.05.30</h3>
+<p>[视频] 利用 SocketIO 实时发送数据：<a href="https://www.youtube.com/watch?v=9HFwJ9hrmls">https://www.youtube.com/watch?v=9HFwJ9hrmls</a></p>
+<p>[类库] slash 一致化处理路径中的分隔符：<a href="https://github.com/sindresorhus/slash">https://github.com/sindresorhus/slash</a></p>
+<p>[类库] TJ 写的命令行选项和参数解析器，支持子命令、选项校验、类型转换，帮助信息生成等等；API 非常的简单优雅：<a href="https://github.com/tj/commander.js">https://github.com/tj/commander.js</a></p>
+<p>[工具] 用命令行，显示 MacOS 信息如，内存、CPU；和查看本机一致：<a href="https://github.com/obihann/archey-osx">https://github.com/obihann/archey-osx</a></p>
+<p>[工具] DevDash 是基于 Terminal 的仪表板，支持从 Github，Google Analytics 或 Google Search Console 中提取数据显示：<a href="https://github.com/Phantas0s/devdash">https://github.com/Phantas0s/devdash</a></p>
+<h3>配图 - DevDash 是基于 Terminal 的仪表板</h3>
+<p><img src="https://raw.githubusercontent.com/Phantas0s/devdash/master/example/img/ga-2.png" alt=""></p>
+<h3>示例 - slash</h3>
+<pre><code class="language-js">const path = require('path');
+const slash = require('slash');
+
+const string = path.join('foo', 'bar');
+// Unix    =&gt; foo/bar
+// Windows =&gt; foo\\bar
+
+slash(string);
+// Unix    =&gt; foo/bar
+// Windows =&gt; foo/bar
+</code></pre>
+<h3>示例 - commander</h3>
+<pre><code class="language-js">const program = require('commander');
+
+program
+  .option('-d, --debug', 'output extra debugging')
+  .option('-s, --small', 'small pizza size')
+  .option('-p, --pizza-type &lt;type&gt;', 'flavour of pizza');
+
+program.parse(process.argv);
+
+if (program.debug) console.log(program.opts());
+console.log('pizza details:');
+if (program.small) console.log('- small pizza size');
+if (program.pizzaType) console.log(`- ${program.pizzaType}`);
+</code></pre>
+<h3>示例 - 用命令行，显示 MacOS 信息</h3>
+<pre><code class="language-sh">                 ###                  User: jhann
+               ####                   Hostname: obihann
+               ###                    Distro: OS X 10.10.5
+       #######    #######             Kernel: Darwin
+     ######################           Uptime:  6:11
+    #####################             Shell: /bin/zsh
+    ####################              Terminal: xterm-256color iTerm.app
+    ####################              Packages: 114
+    #####################             CPU: Intel Core i5-3210M CPU @ 2.50GHz
+     ######################           Memory: 8 GB
+      ####################            Disk: 95%
+        ################              Battery: 100.00%
+         ####     #####               IP Address: 24.222.18.26
+</code></pre>
+<h3>今日图 - 强大的原配气场</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/28/16afe9d0df5aad1e?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/30.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/30.html</guid><pubDate>Thu, 30 May 2019 01:57:45 GMT</pubDate></item><item><title><![CDATA[2019.05.29]]></title><description><![CDATA[<h3>2019.05.29</h3>
+<p>[新闻] Canvas 和 SVG 支持伪 3D 效果：<a href="https://news.ycombinator.com/item?id=20036169">https://news.ycombinator.com/item?id=20036169</a></p>
+<p>[类库] cliui 可以在终端中，进行多列输出：<a href="https://github.com/yargs/cliui">https://github.com/yargs/cliui</a></p>
+<p>[类库] 终端语法高亮输出, 类似于 Highlight.js：<a href="https://github.com/felixfbecker/cli-highlight">https://github.com/felixfbecker/cli-highlight</a></p>
+<p>[工具] 高亮 Medium 里文章的代码块，现在已经可以高亮所有带有 <code>&lt;pre/&gt;</code> 元素的网站，如简书, 知乎等：<a href="https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md">https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md</a></p>
+<h3>配图 - 伪 3D 效果</h3>
+<p><img src="http://qn.40zhe.com/26F21FE9-07A1-4CA1-813C-3D3F8D6A9F70.png" alt=""></p>
+<h3>配图 - Medium 语法高亮插件</h3>
+<p><img src="https://raw.githubusercontent.com/Haixiang6123/codeblock-beautifier/master/screenshot/effect.png" alt=""></p>
+<h3>配图 - 在终端中进行多列输出</h3>
+<p><img src="https://raw.githubusercontent.com/yargs/cliui/HEAD/screenshot.png" alt=""></p>
+<h3>配图 - 终端语法高亮输出</h3>
+<p><img src="https://raw.githubusercontent.com/felixfbecker/cli-highlight/master/media/tests.png" alt=""></p>
+<h3>今日图 - 进退两难</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/29/16b017ed9c627d76?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/29.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/29.html</guid><pubDate>Wed, 29 May 2019 09:13:29 GMT</pubDate></item><item><title><![CDATA[2019.05.28]]></title><description><![CDATA[<h3>2019.05.28</h3>
+<p>[新闻] 微软与 Google 共同开设了一门量子算法课程，可以通过浏览器模拟的量子计算环境，学习量子算法：<a href="https://brilliant.org/courses/quantum-computing/">https://brilliant.org/courses/quantum-computing/</a></p>
+<p>[资源] 《设计模式看了又忘，忘了又看？》该作者一方面是为了学得更扎实，避免缺少思考的过程，没有把知识消化掉转化成自己的：<a href="https://mp.weixin.qq.com/s/WiPwb7AyVlxyr1_kYXt96w">https://mp.weixin.qq.com/s/WiPwb7AyVlxyr1_kYXt96w</a></p>
+<p>[类库] Imagemin CLI 是一款图片压缩工具，以插件的形式，支持多格式的压缩；支持 <a href="https://web.dev/codelab-imagemin-webpack">Webpack</a>、<a href="https://web.dev/codelab-imagemin-gulp">Gulp</a>：<a href="https://github.com/imagemin/imagemin">https://github.com/imagemin/imagemin</a></p>
+<p>[类库] style-components 是针对 React 写的一套 CSS in JS 框架，<a href="https://codesandbox.io/s/zen-hoover-4qj3x">效果案例</a>，里面大量的用到字符串模板：<a href="https://github.com/styled-components/styled-components">https://github.com/styled-components/styled-components</a></p>
+<h3>配图 - 微软与 Google 共同开设了一门量子算法课程</h3>
+<p><img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/The_Hydrogen_Molecule_with_Q-Icv7Zs.png?width=336" alt=""></p>
+<h3>示例 - Imagemin CLI</h3>
+<pre><code class="language-sh">$ imagemin images/* --out-dir=images
+</code></pre>
+<h3>示例 - style-components</h3>
+<pre><code class="language-js">import React from 'react';
+
+import styled from 'styled-components';
+
+// Create a &lt;Title&gt; react component that renders an &lt;h1&gt; which is
+// centered, palevioletred and sized at 1.5em
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+// Create a &lt;Wrapper&gt; react component that renders a &lt;section&gt; with
+// some padding and a papayawhip background
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
+// Use them like any other React component – except they're styled!
+&lt;Wrapper&gt;
+  &lt;Title&gt;Hello World, this is my first styled component!&lt;/Title&gt;
+&lt;/Wrapper&gt;
+</code></pre>
+<h3>今日图 - 结局引起极度舒适</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/26/16af2f0308cb1a80?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/28.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/28.html</guid><pubDate>Tue, 28 May 2019 03:18:26 GMT</pubDate></item><item><title><![CDATA[2019.05.27]]></title><description><![CDATA[<h3>2019.05.27</h3>
+<p>[新闻] GitHub 新增了几个小功能；赞助按钮和 Used By（可以查看那些项目使用了你的模块，非常方便），这几个按钮效果可以直接看 Vue 官方的地址：<a href="https://github.com/vuejs/vue">https://github.com/vuejs/vue</a></p>
+<p>[视频] 《怎样做一个不冲动的人》你不管理好自己的情绪，自然有人帮你管理好情绪：<a href="https://www.youtube.com/watch?v=5am1YLGr8ag">https://www.youtube.com/watch?v=5am1YLGr8ag</a></p>
+<p>[资源] 努力整理翻译一系列前端优质文章，今年博客侧重于 React、Vue、React native 与底层原理分析：<a href="https://github.com/qq449245884/xiaozhi">https://github.com/qq449245884/xiaozhi</a></p>
+<p>[类库] Rough.js 可以创建一个类似于<a href="https://github.com/pshihn/rough/wiki/Examples">手绘效果</a>的图形：<a href="https://roughjs.com/">https://roughjs.com/</a></p>
+<p>[类库] await-timeout 是基于 Promise 实现的 sleep 函数：<a href="https://github.com/vitalets/await-timeout">https://github.com/vitalets/await-timeout</a></p>
+<h3>配图 - GitHub，赞助按钮和 Used By</h3>
+<p><img src="http://qn.40zhe.com/Image.png" alt=""></p>
+<h3>配图 - Rough.js</h3>
+<p><img src="https://roughjs.com/images/main/m14.png" alt="">
+<img src="https://roughjs.com/images/main/m6.png" alt=""></p>
+<h3>示例 - await-timeout</h3>
+<pre><code class="language-js">import Timeout from 'await-timeout';
+
+// wait 1000 ms and resolve
+await Timeout.set(1000);
+
+// wait 1000 ms and reject with 'Error'
+await Timeout.set(1000, 'Error');
+</code></pre>
+<h3>今日图 - 全球浏览量前 20 的网站</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/26/16af26bdf25501bf?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/27.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/27.html</guid><pubDate>Tue, 28 May 2019 01:51:33 GMT</pubDate></item><item><title><![CDATA[2019.05.24]]></title><description><![CDATA[<h3>2019.05.24</h3>
+<p>[文章] 任正非思想之路 - 这里收录了任正非讲话稿 400 余篇，从 1994 年到 2018 年，从深圳、中国到东南亚、非洲、欧洲、美洲，从研发、市场、服务到财经、人力资源、战略、内控与公共关系，从交换机、通讯设备、移动终端到人工智能、物联网，从 2G、3G 到 4G、5G，从物理学、化学、数学到心理学、哲学：<a href="https://github.com/benmahr/RenZhengfei">https://github.com/benmahr/RenZhengfei</a></p>
+<p>[资源] <a href="https://www.microsoft.com/zh-cn/makecode?rtc=1">Microsoft MakeCode</a> 可以给儿童使用的拖拽式编程体验：<a href="https://github.com/microsoft/pxt">https://github.com/microsoft/pxt</a></p>
+<p>[视频] 在 TypeScript 中，使用 ESLint。可以放弃 TSLint 了：<a href="https://www.youtube.com/watch?v=mg_pDqszL3g">https://www.youtube.com/watch?v=mg_pDqszL3g</a></p>
+<p>[工具] Whimsical 是在线画流程图的工具，效果很不错：<a href="https://whimsical.com/flowcharts/">https://whimsical.com/flowcharts/</a></p>
+<p>[类库] Input 自动补全插件：<a href="https://github.com/TarekRaafat/autoComplete.js">https://github.com/TarekRaafat/autoComplete.js</a></p>
+<p>[类库] 效果非常赞的 tooltip 插件：<a href="https://github.com/atomiks/tippyjs">https://github.com/atomiks/tippyjs</a></p>
+<h3>配图 - 任正非思想之路</h3>
+<p><img src="https://user-images.githubusercontent.com/24793419/50375831-c6873700-063e-11e9-92ba-2ee64d3ce69d.png" alt=""></p>
+<h3>配图 - Microsoft PXT</h3>
+<p><img src="http://qn.40zhe.com/fehelper-arcade-makecode-com-1558666077937.png" alt=""></p>
+<h3>配图 - Microsoft PXT</h3>
+<p><img src="http://qn.40zhe.com/fehelper-whimsical-com-Q5patpyGV3RDvkvkx1f6Ck-1558667811136.png" alt=""></p>
+<h3>配图 - Input 自动补全</h3>
+<p><img src="https://raw.githubusercontent.com/TarekRaafat/autoComplete.js/master/docs/img/autoComplete.js.png" alt=""></p>
+<h3>配图 - 效果非常赞的 tooltip 插件</h3>
+<p><img src="https://raw.githubusercontent.com/atomiks/tippyjs/master/logo.png" alt=""></p>
+<h3>今日图 - 硬核结账</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/2/16a769c8b2900877?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/24.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/24.html</guid><pubDate>Fri, 24 May 2019 03:37:59 GMT</pubDate></item><item><title><![CDATA[2019.05.21]]></title><description><![CDATA[<h3>2019.05.21</h3>
+<p>[新闻] 百度小程序支持了 “有赞小程序” UI 库；我看作者是百度的 Team：<a href="https://github.com/bobiscool/vantui-baiapp">https://github.com/bobiscool/vantui-baiapp</a></p>
+<p>[文章] 探索 Serverless 中的前端开发模式：<a href="https://juejin.im/post/5cdc3dc2e51d453b6c1d9d3a">https://juejin.im/post/5cdc3dc2e51d453b6c1d9d3a</a></p>
+<p>[文章] 对开发人员有用的定律、理论、原则和模式；文章里面含（布鲁克斯法则、帕金森定理、康威定律、摩尔定律）等等；：<a href="https://github.com/nusr/hacker-laws-zh">https://github.com/nusr/hacker-laws-zh</a></p>
+<p>[类库] 在浏览器中，实现<a href="https://developer.download.nvidia.cn/books/HTML/gpugems/gpugems_ch38.html">流体流动</a>（有点像是抽烟时，吐烟的效果）效果：<a href="https://github.com/PavelDoGreat/WebGL-Fluid-Simulation">https://github.com/PavelDoGreat/WebGL-Fluid-Simulation</a></p>
+<p>[类库] 可以将字母、数字、转换为奇怪的字体样式：<a href="https://github.com/beizhedenglong/weird-fonts">https://github.com/beizhedenglong/weird-fonts</a></p>
+<h3>配图 - 百度小程序 - 有赞 UI</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/20/16ad5883679e9616?imageView2/2/w/800/q/100" alt=""></p>
+<h3>配图 - 探索 Serverless 中的前端开发模式</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/16/16abc52bc1c02e02?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1" alt=""></p>
+<h3>配图 -对开发人员有用的定律</h3>
+<p><img src="https://raw.githubusercontent.com/nusr/hacker-laws-zh/master/images/gartner_hype_cycle.png" alt=""></p>
+<h3>配图 - 流体流动</h3>
+<p><img src="https://raw.githubusercontent.com/PavelDoGreat/WebGL-Fluid-Simulation/master/screenshot.png" alt=""></p>
+<h3>配图 - 可以将字母、数字、转换为奇怪的字体样式</h3>
+<p><img src="http://qn.40zhe.com/B0B831D9-FBE0-4D43-BBC2-19096C83ACF1.png" alt=""></p>
+<h3>今日图 - 敢怒不敢言</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/21/16ad7f2ed4e539ca?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/21.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/21.html</guid><pubDate>Fri, 24 May 2019 03:37:51 GMT</pubDate></item><item><title><![CDATA[2019.05.17]]></title><description><![CDATA[<h3>2019.05.17</h3>
+<p>[类库] grade.js 可以获取图像的 2 种主色并生成互补渐变的背景，类似于豆瓣 APP 电影详情页的背景色，<a href="https://benhowdle89.github.io/grade/">演示效果</a>：<a href="https://github.com/benhowdle89/grade">https://github.com/benhowdle89/grade</a></p>
+<p>[类库] sitemap.js 是用于生成网站的 <a href="https://www.sitemaps.org/index.html">sitemap xml</a> 文件：<a href="https://github.com/ekalinin/sitemap.js">https://github.com/ekalinin/sitemap.js</a></p>
+<p>[工具] i18ns 是一个多语言翻译搜索引擎，有 2000 多万条翻译数据。支持 11 国语言搜索，可以帮助开发者用低成本完成软件国际化：<a href="https://i18ns.com/zh/index.html">https://i18ns.com/zh/index.html</a></p>
+<p>[工具] 北京市公安局推出的姓名查重网站，可以查询某个姓名在北京市有没有重名的：<a href="https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum">https://gaj.beijing.gov.cn/rkgl/reserve/checkNameSexNum</a></p>
+<h3>配图 - grade.js</h3>
+<p><img src="https://benhowdle89.github.io/grade/samples/up.jpg" alt="">
+<img src="https://benhowdle89.github.io/grade/samples/inside-out.jpg" alt="">
+<img src="https://benhowdle89.github.io/grade/samples/only-god-forgives.jpg" alt=""></p>
+<h3>配图 - i18ns</h3>
+<p><img src="http://qn.40zhe.com/38F83710-1194-4CEE-9EEB-9578FB0A3689.png" alt=""></p>
+<h3>配图 - 北京市公安局推出的姓名查重网站</h3>
+<p><img src="http://qn.40zhe.com/fehelper-gaj-beijing-gov-cn-rkgl-reserve-checkNameSexNum-1558062592564.png" alt=""></p>
+<h3>示例 - sitemap</h3>
+<pre><code class="language-js">var sitemap = sm.createSitemap ({
+      hostname: 'http://example.com',
+      cacheTime: 600000
+    });
+sitemap.add({url: '/page-1/'});
+sitemap.add({url: '/page-2/', changefreq: 'monthly', priority: 0.7});
+sitemap.del({url: '/page-2/'});
+sitemap.del('/page-1/');
+</code></pre>
+<h3>今日图 - 老板画饼</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/17/16ac3747430c8cd7?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/17.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/17.html</guid><pubDate>Fri, 24 May 2019 03:37:51 GMT</pubDate></item><item><title><![CDATA[2019.05.23]]></title><description><![CDATA[<h3>2019.05.23</h3>
+<p>[文章] 学会通过 babel 构建 AST 来修改代码：<a href="https://www.yuque.com/yuzhidao/life/yzuq0r">https://www.yuque.com/yuzhidao/life/yzuq0r</a></p>
+<p>[类库] DotEnv 是一个把 <code>.env</code> 文件加载到环境变量的一个库；类似于 Vue CLI <code>.env</code> 设置环境变量：<a href="https://github.com/motdotla/dotenv">https://github.com/motdotla/dotenv</a></p>
+<p>[类库] 把时间转换成毫秒单位，如 <code>ms('2 days') = 172800000</code>：<a href="https://github.com/zeit/ms">https://github.com/zeit/ms</a></p>
+<p>[工具] 大幅度缩减 Docker 镜像的体积，使用命令 <code>docker-slim build --http-probe your-name/your-app</code>：<a href="https://github.com/docker-slim/docker-slim">https://github.com/docker-slim/docker-slim</a></p>
+<blockquote>
+<p>from ubuntu:14.04 - 432MB =&gt; 14MB (缩减了 30.85 倍)<br>
+from debian:jessie - 406MB =&gt; 25.1MB (缩减了 16.21 倍)<br>
+from node:alpine - 66.7MB =&gt; 34.7MB (缩减了 1.92 倍)</p>
+</blockquote>
+<p>[工具] 谷歌开源的图片压缩工具。在保证图片质量的情况下快速压缩图片， 7M 的图片压缩后为 3.2M，使用起来简单方便：<a href="https://github.com/GoogleChromeLabs/squoosh">https://github.com/GoogleChromeLabs/squoosh</a></p>
+<h3>示例 - 学会通过 babel 构建 AST 来修改代码</h3>
+<pre><code class="language-js">  const ast = parser.parse(content, {
+    sourceType: 'module',
+    plugins: [
+      'jsx',
+    ],
+  });
+</code></pre>
+<h3>示例 - DotEnv</h3>
+<pre><code class="language-sh">DB_HOST=localhost
+DB_USER=root
+DB_PASS=s1mpl3
+</code></pre>
+<pre><code class="language-js">const db = require('db')
+db.connect({
+  host: process.env.DB_HOST,
+  username: process.env.DB_USER,
+  password: process.env.DB_PASS
+})
+</code></pre>
+<h3>示例 - ms</h3>
+<pre><code class="language-js">ms('2 days')  // 172800000
+ms('1d')      // 86400000
+ms('10h')     // 36000000
+ms('2.5 hrs') // 9000000
+ms('2h')      // 7200000
+ms('1m')      // 60000
+ms('5s')      // 5000
+ms('1y')      // 31557600000
+ms('100')     // 100
+ms('-3 days') // -259200000
+ms('-1h')     // -3600000
+ms('-200')    // -200
+</code></pre>
+<h3>今日图 - 这会是 996 最后的归宿吗</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/15/16a2094733382470?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/23.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/23.html</guid><pubDate>Fri, 24 May 2019 03:37:51 GMT</pubDate></item><item><title><![CDATA[2019.05.16]]></title><description><![CDATA[<h3>2019.05.16</h3>
+<p>[视频] Microsoft Developer 发布的 VSCode 使用技巧：<a href="https://www.youtube.com/watch?v=tnSnVlbKtMk">https://www.youtube.com/watch?v=tnSnVlbKtMk</a></p>
+<p>[类库] QRCode 二维码生成器；它比其它类库好的一点是，既支持以 Node 方式调用，也支持直接用命令行的方式调用：<a href="https://github.com/gtanner/qrcode-terminal">https://github.com/gtanner/qrcode-terminal</a></p>
+<p>[工具] Hub 是 GitHub 网站的命令行版本，支持命令行 克隆、查看 Issue、打开项目地址、Fork、Pull Request、Release 创建等等：<a href="https://github.com/github/hub">https://github.com/github/hub</a></p>
+<p>[工具] 使用 OctoLinker 预览 GitHub 源码时像使用编辑器一样，让 <code>include、require、import</code> 语法支持跳转：<a href="https://github.com/OctoLinker/OctoLinker">https://github.com/OctoLinker/OctoLinker</a></p>
+<h3>配图 - OctoLinker</h3>
+<p><img src="https://user-images.githubusercontent.com/1393946/34275053-dca87148-e69b-11e7-9d8f-e43ce361755b.gif" alt=""></p>
+<h3>配图 - QRCode</h3>
+<pre><code class="language-sh">qrcode-terminal 'http://github.com'
+</code></pre>
+<p><img src="https://camo.githubusercontent.com/1b87ab92f230c35ff19abf2449e0fd52bea3f124/68747470733a2f2f7261772e6769746875622e636f6d2f6774616e6e65722f7172636f64652d7465726d696e616c2f6d61737465722f6578616d706c652f62617369632e706e67" alt=""></p>
+<h3>示例 - Hub</h3>
+<pre><code class="language-sh"># clone your own project
+$ hub clone dotfiles
+# → git clone git://github.com/YOUR_USER/dotfiles.git
+
+# clone another project
+$ hub clone github/hub
+# → git clone git://github.com/github/hub.git
+
+# open the current project's issues page
+$ hub browse -- issues
+# → open https://github.com/github/hub/issues
+
+# open another project's wiki
+$ hub browse mojombo/jekyll wiki
+# → open https://github.com/mojombo/jekyll/wiki
+</code></pre>
+<h3>今日图 - 队列和堆栈</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/16/16abe433ba900b59?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/16.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/16.html</guid><pubDate>Fri, 24 May 2019 03:37:51 GMT</pubDate></item><item><title><![CDATA[2019.05.22]]></title><description><![CDATA[<h3>2019.05.22</h3>
+<p>[类库] 将字节转换成可以读的字符串，比如 1337 个字节，会显示成 1.34 KB：<a href="https://github.com/sindresorhus/pretty-bytes">https://github.com/sindresorhus/pretty-bytes</a></p>
+<p>[类库] Webpack 打包后，可以和上一次打包的文件进行对比，看看本次打包增加了多大的存储空间：<a href="https://github.com/GoogleChromeLabs/size-plugin">https://github.com/GoogleChromeLabs/size-plugin</a></p>
+<p>[工具] 在 GitHub README 下方显示 NPM 的依赖信息，对阅读源码来说很有用，我是习惯先从 <code>package.json</code> 文件入手：<a href="https://github.com/npmhub/npmhub">https://github.com/npmhub/npmhub</a></p>
+<p>[工具] Refined GitHub 是一个 Chrome 扩展，访问 GitHub 网站时，改进原网站的一些特性：<a href="https://github.com/sindresorhus/refined-github">https://github.com/sindresorhus/refined-github</a></p>
+<h3>示例 - 将字节转换成可以读的字符串</h3>
+<pre><code class="language-js">const prettyBytes = require('pretty-bytes');
+
+prettyBytes(1337);
+//=&gt; '1.34 kB'
+
+prettyBytes(100);
+//=&gt; '100 B'
+
+// Display file size differences
+prettyBytes(42, {signed: true});
+//=&gt; '+42 B'
+
+// Localized output using German locale
+prettyBytes(1337, {locale: 'de'});
+//=&gt; '1,34 kB'
+</code></pre>
+<h3>配图 - 查看 Webpack 包大小</h3>
+<p><img src="https://i.imgur.com/3bWBrJm.png" alt=""></p>
+<h3>配图 - 在 GitHub README 下方显示 NPM 的依赖信息</h3>
+<p><img src="https://raw.githubusercontent.com/npmhub/npmhub/master/assets/npm-hub-screenshot.png" alt=""></p>
+<h3>配图 - Refined GitHub</h3>
+<p><img src="https://cloud.githubusercontent.com/assets/170270/25370217/61718820-29b3-11e7-89c5-2959eaf8cac8.png" alt="">
+<img src="https://user-images.githubusercontent.com/1402241/34438653-f66535a4-ecda-11e7-9406-2e1258050cfa.png" alt=""></p>
+<h3>今日图 - 黑色的耐脏，有理有据</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/13/16ab055d40ec2c58?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/22.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/22.html</guid><pubDate>Thu, 23 May 2019 06:06:15 GMT</pubDate></item><item><title><![CDATA[2019.05.20]]></title><description><![CDATA[<h3>2019.05.20</h3>
+<p>[文章] BinaryAST 目的是在保持 JavaScript 语义不变的同时加快解析速度，这篇文章主要介绍它的工作原理，以及可能带来的好处：<a href="https://blog.cloudflare.com/binary-ast/">https://blog.cloudflare.com/binary-ast/</a></p>
+<p>[文章] 微前端的解决方案：<a href="https://micro-frontends.org/">https://micro-frontends.org/</a></p>
+<p>[工具] 预先知道 Yarn 新版本 <a href="https://github.com/yarnpkg/berry">berry</a> 的新特性：<a href="https://github.com/yarnpkg/yarn/issues/6953">https://github.com/yarnpkg/yarn/issues/6953</a></p>
+<p>[类库] 当前的框架，无论是 React 还是 VueJS，无论怎么编译，在使用时都必然需要引入框架本身。Svelte 是完全溶入到 JavaScript 中，就好像没有引用这个框架，这种方式主要有益于文件大小：<a href="https://github.com/sveltejs/svelte">https://github.com/sveltejs/svelte</a></p>
+<h3>配图 - BinaryAST</h3>
+<p><img src="https://blog.cloudflare.com/content/images/2019/05/desktop-without-BinJS-1.png" alt="">
+<img src="https://blog.cloudflare.com/content/images/2019/05/desktop-with-BinJS.png" alt="">
+<img src="https://blog.cloudflare.com/content/images/2019/05/binast.gif" alt=""></p>
+<h3>配图 - 微前端解决方案</h3>
+<p><img src="https://micro-frontends.org/ressources/video/custom-element.gif" alt=""></p>
+<h3>配图 - Yarn berry</h3>
+<p><img src="http://qn.40zhe.com/1558323621520.jpg" alt=""></p>
+<h3>配图 - Svelte</h3>
+<p><img src="http://qn.40zhe.com/1558323659205.jpg" alt=""></p>
+<h3>今日图 - 爱的魔力转圈圈</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/18/16ac8e216e9087b5?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/20.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/20.html</guid><pubDate>Mon, 20 May 2019 03:44:03 GMT</pubDate></item><item><title><![CDATA[2019.05.15]]></title><description><![CDATA[<h3>2019.05.15</h3>
+<p>[新闻] Lerna 发布了新的版本，支持 conventional-commits ，而且我看源码时学到了一招，原来 dependencies 支持 <a href="https://docs.npmjs.com/files/package.json"><code>file:../query-graph</code></a> 方式：<a href="https://github.com/lerna/lerna/releases/tag/v3.14.0">https://github.com/lerna/lerna/releases/tag/v3.14.0</a></p>
+<p>[文章] 微前端技术调研，我们来看看优秀的工程师，是怎么做技术调研的：<a href="https://github.com/umijs/rfcs/blob/umi-plugin-single-spa/accepted/0000-umi-plugin-single-spa.md">https://github.com/umijs/rfcs/blob/umi-plugin-single-spa/accepted/0000-umi-plugin-single-spa.md</a></p>
+<p>[类库] Google 实验室推出了一个库 comlink ，它属于 Web Workers 的二次封装；之前没想到它的应用场景，后来发现它的适用场景应该是像淘宝双十一的数据大屏；「因为性能问题，通常一个大屏需要请求多个接口来展示图表，服务端通常有熔断策略，每个图表正常一秒请求一个接口的话，带来的 Ajax 开销也是非常大的」这种情况就特别适用于 Web Workers 技术：<a href="https://github.com/GoogleChromeLabs/comlink">https://github.com/GoogleChromeLabs/comlink</a></p>
+<p>[类库] unform 是 React 体系的一个表单库，它有一点特别好的地方，支持嵌套数据格式,这样就可以避免了在发送数据时（Service）做二次的数据处理：<a href="https://github.com/Rocketseat/unform">https://github.com/Rocketseat/unform</a></p>
+<h3>配图 - 微前端技术调研</h3>
+<p><img src="https://camo.githubusercontent.com/1c583be819af384760929ffa81cb5c366d9b228d/68747470733a2f2f63646e2e6e6c61726b2e636f6d2f79757175652f302f323031392f706e672f38363032352f313535373436373031343335352d37343632626431662d633537632d343536382d393866642d3034653636653932376638332e706e67" alt=""></p>
+<h3>配图 - comlink</h3>
+<p><img src="https://user-images.githubusercontent.com/234957/54164510-cdab2d80-4454-11e9-92d0-7356aa6c5746.png" alt=""></p>
+<h3>示例 - Lerna file 支持</h3>
+<pre><code class="language-json">{ 
+    &quot;dependencies&quot; : { 
+        &quot;foo&quot; : &quot;1.0.0 - 2.9999.9999&quot;, 
+        &quot;bar&quot; : &quot;&gt;=1.0.2 &lt;2.1.2&quot;, 
+        &quot;baz&quot; : &quot;&gt;1.0.2 &lt;=2.3.4&quot;, 
+        &quot;boo&quot; : &quot;2.0.1&quot;, 
+        &quot;qux&quot; : &quot;&lt;1.0.0 || &gt;=2.3.1 &lt;2.4.5 || &gt;=2.5.2 &lt;3.0.0&quot;, 
+        &quot;asd&quot; : &quot;http://asdf.com/asdf.tar.gz&quot;, 
+        &quot;til&quot; : &quot;~1.2&quot;, 
+        &quot;elf&quot; : &quot;~1.2.3&quot;, 
+        &quot;two&quot; : &quot;2.x&quot;, 
+        &quot;thr&quot; : &quot;3.3.x&quot;, 
+        &quot;lat&quot; : &quot;latest&quot;, 
+        &quot;dyl&quot; : &quot;file:../dyl&quot; // 看这里
+    }
+}
+</code></pre>
+<h3>示例 - Nested fields</h3>
+<pre><code class="language-js">import React from &quot;react&quot;;
+import { Form, Input, Scope } from &quot;@rocketseat/unform&quot;;
+
+function App() {
+  function handleSubmit(data) {
+    console.log(data);
+
+    /**
+     * {
+     *   name: 'Diego',
+     *   address: { street: &quot;Name of street&quot;, number: 123 } // 看这里
+     * }
+     */
+  };
+
+  return (
+    &lt;Form onSubmit={handleSubmit}&gt;
+      &lt;Input name=&quot;name&quot; /&gt;
+
+      &lt;Scope path=&quot;address&quot;&gt; // 看这里
+        &lt;Input name=&quot;street&quot; /&gt;
+        &lt;Input name=&quot;number&quot; /&gt;
+      &lt;/Scope&gt;
+
+      &lt;button type=&quot;submit&quot;&gt;Save&lt;/button&gt;
+    &lt;/Form&gt;
+  );
+}
+</code></pre>
+<h3>今日图 - 团队协作</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/15/16ab97a112e892ae?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/15.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/15.html</guid><pubDate>Wed, 15 May 2019 03:30:48 GMT</pubDate></item><item><title><![CDATA[2019.05.14]]></title><description><![CDATA[<h3>2019.05.14</h3>
+<p>[文章] 前几天 Google IO 上 V8 团队为我们分享了《What's New in JavaScript》主题，主要分享了几点如，async 执行快了 11 倍、JS 解析快了 2 倍等等：<a href="https://juejin.im/post/5cd6785de51d453aa44ad6ef">https://juejin.im/post/5cd6785de51d453aa44ad6ef</a></p>
+<p>[文章] Chrome 运行时性能瓶颈分析：<a href="https://mp.weixin.qq.com/s/ijkEkjxAByFAm1JtDPXPMQ">https://mp.weixin.qq.com/s/ijkEkjxAByFAm1JtDPXPMQ</a></p>
+<p>[文章] 猴子都能懂的 Git 入门；这篇 Git 教程是我看过最容易理解，比较有体系的一个；就算学不到知识，也要看看人家是怎么做的：<a href="https://backlog.com/git-tutorial/cn/stepup/stepup2_8.html">https://backlog.com/git-tutorial/cn/stepup/stepup2_8.html</a></p>
+<p>[类库] xgplayer 是由字节跳动，西瓜视频，开源的带解析器、能节省流量的 HTML5 视频播放器。可以作为 H5 组件、Vue、React 组件单独使用：<a href="https://github.com/bytedance/xgplayer">https://github.com/bytedance/xgplayer</a></p>
+<p>[资源] 用 React、Redux、Immutable 实现的俄罗斯方块，<a href="https://chvin.github.io/react-tetris/?lan=en">体验地址</a>：<a href="https://github.com/chvin/react-tetris">https://github.com/chvin/react-tetris</a></p>
+<h3>配图 - What's New in JavaScript</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2018/11/15/1671636b00a1b83b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>配图 - Chrome 运行时性能瓶颈分析</h3>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/meG6Vo0MevjIgCBpxCDHLXsr3OgPSLWTAfSicYSgUDlbvPBB5QUmYgHFM5AW72PCUDmHmLuZaQmYPyc587Bku7g/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt=""></p>
+<h3>配图 - 猴子都能懂的 Git 入门</h3>
+<p><img src="https://backlog.com/git-tutorial/cn/img/post/stepup/capture_stepup2_8_1.png" alt=""></p>
+<h3>配图 - 用 React、Redux、Immutable 实现的俄罗斯方块</h3>
+<p><img src="https://camo.githubusercontent.com/589fa964de9bab21690a2c5ad036553de296c866/68747470733a2f2f696d672e616c6963646e2e636f6d2f7470732f5442316b764a794f565858585862686146585858585858585858582d3332302d3535352e676966" alt="">
+<img src="https://camo.githubusercontent.com/6ef40b7bb0c239d65201e40cc1e59e75cbd44b3d/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f54423142364f4452585858585858486146585858585858585858582d313932302d313038302e706e67" alt=""></p>
+<h3>今日图 - 看直播的你</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/14/16ab3b4a6d027048?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/14.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/14.html</guid><pubDate>Tue, 14 May 2019 03:51:22 GMT</pubDate></item><item><title><![CDATA[2019.04.15]]></title><description><![CDATA[<h3>2019.04.15</h3>
+<p>[文章] Ali Data Frontend Team 团队成员写的精读文章《深入剖析 React Concurrent》：<a href="https://zhuanlan.zhihu.com/p/60307571">https://zhuanlan.zhihu.com/p/60307571</a></p>
+<p>[文章] 该作者整理了 ES6、ES7、ES8、ES9、ES10 的新特性，整理的非常棒：<a href="https://juejin.im/post/5ca2e1935188254416288eb2">https://juejin.im/post/5ca2e1935188254416288eb2</a></p>
+<p>[类库] hotkeys 是用于捕获键盘输入的依赖库，调用方式很友好: <a href="https://github.com/jaywcjlove/hotkeys">https://github.com/jaywcjlove/hotkeys</a></p>
+<p>[工具] Octotree 是一个 Chrome 扩展插件，其目的是在 GitHub 左侧，追加代码的树形结构的导航栏，方便查阅代码：<a href="https://github.com/ovity/octotree">https://github.com/ovity/octotree</a></p>
+<p>[工具] The Fucking Github 是一个 Chrome 浏览器的扩展插件，可以用来很方便地查看、整理、搜索你已经 Star 过的项目和搜索 Github 上的项目：<a href="https://github.com/lvxianchao/the-fucking-github">https://github.com/lvxianchao/the-fucking-github</a></p>
+<blockquote>
+<p>你是否在 Github 上有很多 star 过的项目并且经常需要浏览它们，但是每次你都得先在浏览器里打开一个标签页，然后输入 <code>https://github.com</code> 再点击右侧你的头像，再点击 your stars，然后你终于看见了那些你 star 过的项目。</p>
+</blockquote>
+<h3>配图 - Octotree</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2335mf2yrj20wu0hkq6e.jpg" alt=""></p>
+<h3>配图 - The Fucking Github</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2339kujgwj22xw1yg45v.jpg" alt=""></p>
+<h3>示例 - hotkeys</h3>
+<pre><code class="language-js">import hotkeys from 'hotkeys-js';
+
+hotkeys('f5', function(event, handler){
+  // Prevent the default refresh event under WINDOWS system
+  event.preventDefault() 
+  alert('you pressed F5!') 
+});
+</code></pre>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/04/15.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/04/15.html</guid><pubDate>Mon, 13 May 2019 03:21:56 GMT</pubDate></item><item><title><![CDATA[2019.05.13]]></title><description><![CDATA[<h3>2019.05.13</h3>
+<p>[文章] GitHub 开始准备提供包管理中心了，包括 NPM、Maven、Docker、RubyGems 等：<a href="https://github.com/features/package-registry">https://github.com/features/package-registry</a></p>
+<p>[文章] 《我是如何获得财务自由的》，这篇文章给我带来了很多启发，其中引入了几个概念如，「第二宇宙速度（Second Cosmic Velocity）」和「你的商业计划就是你的赚钱计划」并讲述怎么把他应用到赚钱的实践中去：<a href="https://mp.weixin.qq.com/s/1ShMnfImaGVgQ2xmr61u_Q">https://mp.weixin.qq.com/s/1ShMnfImaGVgQ2xmr61u_Q</a></p>
+<p>[类库] dinoQL 是使用 GraphQL 语法查询 JavaScript Objects 的工具：<a href="https://github.com/victorvoid/dinoql">https://github.com/victorvoid/dinoql</a></p>
+<p>[类库] 可以让网页放屁的类库：<a href="https://github.com/theonion/fartscroll.js/blob/master/README.md">https://github.com/theonion/fartscroll.js/blob/master/README.md</a></p>
+<p>[工具] The Fuck 是自动修正命令行，输入错误的工具，我记得好多 zsh 插件实际上也支持，有知道的欢迎留言：<a href="https://github.com/theonion/fartscroll.js/blob/master/README.md">https://github.com/theonion/fartscroll.js/blob/master/README.md</a></p>
+<p>[工具] 在终端里打开当前项目的远程仓库地址，不要小看这个插件欧，每次改完本地代码，当你想用浏览器访问远程仓库的时候，就知道这个插件多方便了，支持 ZSH：<a href="https://github.com/paulirish/git-open">https://github.com/paulirish/git-open</a></p>
+<h3>配图 - GitHub Register</h3>
+<p><img src="http://qn.40zhe.com/1557716946109.jpg" alt=""></p>
+<h3>配图 - 我是如何获得财务自由的</h3>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/aQpyWscZaOZZ3MKj2t3MUHc9MW5VZgbOGIZJWsa1iagAI2M2GwicfiboFHJTUkPOibicaQZ8jTpIN5ac7wANhPEg6qg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt=""></p>
+<h3>配图 - Git Open</h3>
+<p><img src="https://user-images.githubusercontent.com/39191/33507513-f60041ae-d6a9-11e7-985c-ab296d6a5b0f.gif" alt=""></p>
+<h3>配图 - thefuck</h3>
+<p><img src="https://raw.githubusercontent.com/nvbn/thefuck/master/example.gif" alt=""></p>
+<h3>示例 - dinoQL</h3>
+<pre><code class="language-js">import dinoql from 'dinoql'
+
+const users = dinoql(data)`
+  requests {
+    users(id: &quot;200&quot;) {
+      name
+    }
+  }
+`
+
+console.log(users) //{ users: [{ name: 'Kant Jonas' }] }
+</code></pre>
+<h3>今日图 - DNS 劫持</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/8/16a96f4b64f0ad8a?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/13.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/13.html</guid><pubDate>Mon, 13 May 2019 03:12:25 GMT</pubDate></item><item><title><![CDATA[2019.05.08]]></title><description><![CDATA[<h3>2019.05.08</h3>
+<p>&lt;font color=&quot;red&quot;&gt;5.9 - 5.12 早报更新时间不定，有可能出现停更，提前跟大家请个假，不要祸害我的 Issue 啦&lt;/font&gt;</p>
+<p>[文章] 《Tree-Shaking 性能优化实践 - 原理篇》Vue 3.0 包的缩减就是用 Tree-Shaking 昨天的视频有介绍：<a href="https://juejin.im/post/5a4dc842518825698e7279a9">https://juejin.im/post/5a4dc842518825698e7279a9</a></p>
+<p>[文章] 《多页应用 Webpack4 配置优化与踩坑记录》：<a href="https://segmentfault.com/a/1190000016685119">https://segmentfault.com/a/1190000016685119</a></p>
+<p>[类库] Vue 剪贴板类库，通过一条指令，就能方便的实现该功能：<a href="https://github.com/euvl/v-clipboard">https://github.com/euvl/v-clipboard</a></p>
+<p>[教程] 高级 React Hooks 的使用技巧：<a href="https://github.com/kentcdodds/advanced-react-hooks">https://github.com/kentcdodds/advanced-react-hooks</a></p>
+<ol>
+<li><code>useReducer</code>: simple Counter</li>
+<li><code>useReducer</code>: HTTP requests</li>
+<li><code>useContext</code>: simple Counter (covers <code>useMemo</code> and <code>useCallback</code> as well)</li>
+<li><code>useContext</code>: Caching response data in context (covers <code>useMemo</code> and
+<code>useCallback</code> as well)</li>
+<li><code>useLayoutEffect</code>: auto-growing textarea</li>
+<li><code>useImperativeHandle</code>: scroll to top/bottom</li>
+<li><code>useDebugValue</code>: useMedia</li>
+</ol>
+<h3>配图 - Tree-Shaking 性能优化实践</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2018/1/4/160bfd6baf24ec38?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>示例 - 多页应用 Webpack4 配置优化与踩坑记录 - splitChunks</h3>
+<pre><code class="language-js">const commonOptions = {
+  chunks: 'all',
+  reuseExistingChunk: true
+}
+
+export default {
+  namedChunks: true,
+  moduleIds: 'hashed',
+  runtimeChunk: {
+    name: 'manifest'
+  },
+  splitChunks: {
+    maxInitialRequests: 5,
+    cacheGroups: {
+      polyfill: {
+        test: /[\\/]node_modules[\\/](core-js|raf|@babel|babel)[\\/]/,
+        name: 'polyfill',
+        priority: 2,
+        ...commonOptions
+      },
+      dll: {
+        test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+        name: 'dll',
+        priority: 1,
+        ...commonOptions
+      },
+      commons: {
+        name: 'commons',
+        minChunks: Math.ceil(pages.length / 3), // 至少被1/3页面的引入才打入common包
+        ...commonOptions
+      }
+    }
+  }
+}
+</code></pre>
+<h3>示例 - Vue 剪贴板类库，通过指令的方式操作</h3>
+<pre><code class="language-html">&lt;button v-clipboard=&quot;value&quot;&gt;
+  Copy to clipboard
+&lt;/button&gt;
+</code></pre>
+<h3>今日图 - 你和 Bug 的距离</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/8/16a9573bc26f194a?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/08.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/08.html</guid><pubDate>Wed, 08 May 2019 05:42:59 GMT</pubDate></item><item><title><![CDATA[2019.05.07]]></title><description><![CDATA[<h3>2019.05.07</h3>
+<p>[新闻] 微软在 5 月 6 日推出了全新的终端 Windows Terminal，而在这之上，其实是 2 代 WSL（Windows Subsystem for Linux 2）提供了强劲动力，值得一提的例子是 Linux 版本的 Docker 可以在 WSL 2 中运行：<a href="https://www.oschina.net/news/106490/wsl-2">https://www.oschina.net/news/106490/wsl-2</a></p>
+<p>[新闻] 微软即将推出 Web 版 VS Code (Visual Studio Online)
+：<a href="https://devblogs.microsoft.com/visualstudio/intelligent-productivity-and-collaboration-from-anywhere/">https://devblogs.microsoft.com/visualstudio/intelligent-productivity-and-collaboration-from-anywhere/</a></p>
+<p>[视频] 中文演讲《Vue 作者尤雨溪为你分享 Vue 3.0 进展》：<a href="https://www.youtube.com/watch?v=a4N1Sz_Y5Pg">https://www.youtube.com/watch?v=a4N1Sz_Y5Pg</a></p>
+<p>[文章] 花了 1000G，我终于弄清楚了 Serverless 是什么（上）：什么是 Serverless 架构：<a href="https://segmentfault.com/a/1190000012042629">https://segmentfault.com/a/1190000012042629</a></p>
+<p>[工具] 代码片段管理工具：<a href="https://github.com/hackjutsu/Lepton">https://github.com/hackjutsu/Lepton</a></p>
+<p>[工具] 集合多家 API 的新一代图床：<a href="https://github.com/aimerforreimu/auxpi">https://github.com/aimerforreimu/auxpi</a></p>
+<h3>配图 - 代码片段管理工具</h3>
+<p><img src="https://github.com/hackjutsu/Lepton/blob/master/docs/img/portfolio/stay_organized.png?raw=true" alt=""></p>
+<h3>配图 - 集合多家 API 的新一代图床</h3>
+<p><img src="https://camo.githubusercontent.com/adf3a0a4bd8b8c7094be8c11db20d1b42a7ef753/68747470733a2f2f7773322e73696e61696d672e636e2f6c617267652f3030374446674a776779316731306563626c6831646a33316863306e773737302e6a7067" alt="">
+<img src="https://camo.githubusercontent.com/74a652d91c9dc3ccaad3bb3b20cf16ded5602a65/68747470733a2f2f7773332e73696e61696d672e636e2f6c617267652f3030374446674a7767793167313065617675327a716a33316861306f626469692e6a7067" alt="">
+<img src="https://camo.githubusercontent.com/5bc7e016be3ac8d191fae7d278bca46105eefe3d/68747470733a2f2f616530312e616c6963646e2e636f6d2f6b662f48544231696b4832545932704b31526a535a46733736314e6c5858614e2e706e67" alt=""></p>
+<h3>配图 - 花了 1000G，我终于弄清楚了 Serverless 是什么</h3>
+<p><img src="https://image-static.segmentfault.com/203/564/203564783-5a0e266b8f423_articlex" alt=""></p>
+<h3>今日图 - 节后综合征</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/6/16a8d22958e71066?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/07.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/07.html</guid><pubDate>Tue, 07 May 2019 05:36:35 GMT</pubDate></item><item><title><![CDATA[2019.05.06]]></title><description><![CDATA[<h3>2019.05.06</h3>
+<p>[文章] VSCode Remote 发布！开启远程开发新时代。<a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">配套扩展</a>：<a href="https://mp.weixin.qq.com/s/UF-thhDs96pV1_PqnkT0IQ">https://mp.weixin.qq.com/s/UF-thhDs96pV1_PqnkT0IQ</a></p>
+<p>[文章] 微前端是一种类似于微服务的架构，它将微服务的理念应用于浏览器端，即将 Web 应用由单一的单体应用转变为多个小型前端应用聚合为一的应用。各个前端应用还可以独立运行、独立开发、独立部署：<a href="https://github.com/phodal/microfrontends">https://github.com/phodal/microfrontends</a></p>
+<p>[类库] 汉字与拼音互转的工具库：<a href="https://github.com/sxei/pinyinjs">https://github.com/sxei/pinyinjs</a></p>
+<p>[工具] git-history 这个 VSCode 插件可以帮助你快速浏览 git 仓库的文件历史：<a href="https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history">https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history</a></p>
+<h3>配图 - VSCode Remote</h3>
+<p><img src="https://microsoft.github.io/vscode-remote-release/images/ssh-readme.gif" alt=""></p>
+<h3>配图 - 汉字与拼音互转的工具库</h3>
+<p><img src="http://qn.40zhe.com/WX20190506-095745@2x.png" alt=""></p>
+<h3>配图 - git-history</h3>
+<p><img src="https://user-images.githubusercontent.com/1911623/52807635-d5043480-306a-11e9-9b03-351b7cda4936.gif" alt=""></p>
+<h3>今日图 - 扎心了，老铁</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/5/16a8663a5c60e3cd?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/06.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/06.html</guid><pubDate>Mon, 06 May 2019 02:26:22 GMT</pubDate></item><item><title><![CDATA[2019.05.05]]></title><description><![CDATA[<h3>2019.05.05</h3>
+<p>[文章] Kent C. Dodds 写的《如何使用 React Context》：<a href="https://kentcdodds.com/blog/how-to-use-react-context-effectively">https://kentcdodds.com/blog/how-to-use-react-context-effectively</a></p>
+<p>[文章] 《权力的游戏》3D 地图的地理要素和 mbtile 数据，是广大爱好者和官方合力贡献且维护的；基于 Mapbox customlayer，<a href="https://alex2wong.github.io/Game-of-Throne-Map/index.html#5.05/3.95/19.08">在线地址</a>：<a href="https://juejin.im/post/5ccab910f265da035378ec43">https://juejin.im/post/5ccab910f265da035378ec43</a></p>
+<p>[类库] update-notifier 是一个 CLI 端更新通知的依赖库；他会读取 <code>package.json</code> 来判断当前的 CLI 工具是否需要更新：<a href="https://github.com/yeoman/update-notifier">https://github.com/yeoman/update-notifier</a></p>
+<p>[类库] yargs-parser 也是开发 CLI 端所用到的工具，用于对命令后续的参数做解析：<a href="https://github.com/yargs/yargs-parser">https://github.com/yargs/yargs-parser</a></p>
+<h3>配图 - 权利的游戏</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/4/16a81121094517cc?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="">
+<img src="https://user-gold-cdn.xitu.io/2019/5/2/16a77e2de2eb01e9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>配图 - update-notifier</h3>
+<p><img src="https://github.com/yeoman/update-notifier/raw/master/screenshot.png" alt=""></p>
+<h3>示例 - update-notifier</h3>
+<pre><code class="language-js">const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+
+updateNotifier({pkg}).notify();
+</code></pre>
+<h3>示例 - yargs-parser</h3>
+<pre><code class="language-js">var argv = require('yargs-parser')(process.argv.slice(2))
+console.log(argv)
+// node example.js --foo=33 --bar hello
+// { _: [], foo: 33, bar: 'hello' }
+</code></pre>
+<h3>今日图 - 用户永远不会按照你的想法使用产品的</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/5/16a85f2fef410924?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/05.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/05.html</guid><pubDate>Sun, 05 May 2019 03:21:39 GMT</pubDate></item><item><title><![CDATA[2019.05.03]]></title><description><![CDATA[<h3>2019.05.03</h3>
+<p>[新闻] Chrome Dev Tools 支持多光标操作：<a href="https://twitter.com/adyngom/status/1123993177759866881">https://twitter.com/adyngom/status/1123993177759866881</a></p>
+<p>[新闻] 前几天分享了<a href="https://www.yuque.com/yuque/changelog/etl3px">语雀的研发月报</a>，刚刚才发现 VSCode 在 2017 年就有月度开发汇总了，内容介绍极其清晰：<a href="https://code.visualstudio.com/updates/v1_29">https://code.visualstudio.com/updates/v1_29</a></p>
+<p>[文章] Shadow DOM != Virtual DOM：<a href="https://develoger.com/shadow-dom-virtual-dom-889bf78ce701">https://develoger.com/shadow-dom-virtual-dom-889bf78ce701</a></p>
+<p>[文章] 分析网页性能的各个指标是什么，怎么排查慢的原因；看了这篇文章才知道，有个 <code>performance.mark('end')</code> 方法：<a href="https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/">https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/</a></p>
+<p>[类库] loadable-components 是 React 按需加载的组件：<a href="https://github.com/smooth-code/loadable-components">https://github.com/smooth-code/loadable-components</a></p>
+<h3>配图 - 分析网页性能</h3>
+<p><img src="https://nolanwlawson.files.wordpress.com/2018/09/virtualbox_msedge-win10_22_09_2018_12_51_17.png" alt=""></p>
+<h3>配图 - VSCode 月报</h3>
+<p><img src="https://code.visualstudio.com/assets/updates/1_29/css-specificity.png" alt=""></p>
+<h3>配图 - Shadow DOM != Virtual DOM</h3>
+<p><img src="https://cdn-images-1.medium.com/max/2400/1*-mYZovkTu-PWsGoKjRzU-g.png" alt=""></p>
+<h3>示例 - loadable-components</h3>
+<pre><code class="language-js">import loadable from '@loadable/component'
+
+const OtherComponent = loadable(() =&gt; import('./OtherComponent'))
+
+function MyComponent() {
+  return (
+    &lt;div&gt;
+      &lt;OtherComponent /&gt;
+    &lt;/div&gt;
+  )
+}
+</code></pre>
+<h3>今日图 - 肇事前逃逸</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/26/16a585fa7fe14f06?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/03.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/03.html</guid><pubDate>Fri, 03 May 2019 01:24:24 GMT</pubDate></item><item><title><![CDATA[2019.05.02]]></title><description><![CDATA[<h3>2019.05.02</h3>
+<p>[视频] 使用 React、GraphQL 和 Relay 构建新的 facebook.com：<a href="https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/">https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/</a></p>
+<p>[文章] 从 IIFE 聊到 Babel 带你深入了解前端模块化发展体系；「不知道你有没有意识到，对于今天的我们而言，这些工具包让开发效率得到了巨大的提升，但是这一切是从什么开始的呢？」：<a href="https://juejin.im/post/5cb9e563f265da03712999e8">https://juejin.im/post/5cb9e563f265da03712999e8</a></p>
+<p>[类库] vue-custom-element 是在 Vue 中，添加全局的属性和方法，<a href="https://karol-f.github.io/vue-custom-element/#/demos/basic">案例</a>：<a href="https://github.com/karol-f/vue-custom-element">https://github.com/karol-f/vue-custom-element</a></p>
+<p>[资源] 用 CSS 实现的各种 Loader 效果：<a href="https://github.com/lukehaas/css-loaders">https://github.com/lukehaas/css-loaders</a></p>
+<h3>配图 - 构建新的 facebook.com</h3>
+<p><img src="http://qn.40zhe.com/zaobao/2019/5/2/1.png" alt=""></p>
+<h3>配图 - vue-custom-element</h3>
+<p><img src="http://qn.40zhe.com/zaobao/2019/5/2/2.png" alt=""></p>
+<h3>配图 - 用 CSS 实现的各种 Loader 效果</h3>
+<p><img src="https://raw.githubusercontent.com/lukehaas/css-loaders/step2/images/css-loaders-screenshot.jpg" alt=""></p>
+<h3>今日图 - 全栈工程师的日常</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/5/2/16a763d28be4b200?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/02.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/02.html</guid><pubDate>Thu, 02 May 2019 03:12:53 GMT</pubDate></item><item><title><![CDATA[2019.05.01]]></title><description><![CDATA[<h3>2019.05.01</h3>
+<p>[技巧] 在脚手架的工具中，假如有一项配置它是可选项，使用后会有一些特性的增强，如 Webpack DLL。这时就可以在 GitHub 的 README 中使用一个技巧，<code>diff</code> 语法高亮，就可以明确告知用户，加了哪些参数可以得到哪些增强，这有一个案例：<a href="https://github.com/ds300/patch-package#set-up">https://github.com/ds300/patch-package#set-up</a></p>
+<p>[工具] 百度开源的表单生成器（页面渲染器），基于一个约定好的 JSON 结构就可以快速的创建出来一个管理页面：<a href="https://github.com/baidu/amis">https://github.com/baidu/amis</a></p>
+<p>[资源] 经常会有朋友想知道有哪些 Apps 或服务是值得付费来使用的，或者有哪些产品是可以提升生活品质的，于是创建了 BestApp 项目，旨在让推荐变得有章可循：<a href="https://github.com/hzlzh/Best-App">https://github.com/hzlzh/Best-App</a></p>
+<p>[类库] TypeORM 是在 JS/TypeScript 中使用的 <a href="https://baike.baidu.com/item/ORM/3583252?fr=aladdin">ORM</a> 工具，它支持 MySQL、SQLite 等数据库：<a href="https://github.com/typeorm/typeorm">https://github.com/typeorm/typeorm</a></p>
+<h3>配图 - diff 技巧</h3>
+<p><img src="http://qn.40zhe.com/zaobao/5/1/1.png" alt=""></p>
+<h3>配图 - BestApp</h3>
+<p><img src="http://qn.40zhe.com/zaobao/5/1/2.png" alt=""></p>
+<h3>示例</h3>
+<pre><code class="language-js">import {Entity, Column, PrimaryColumn} from &quot;typeorm&quot;;
+
+@Entity()
+export class Photo {
+
+    @PrimaryColumn()
+    id: number;
+
+    @Column()
+    name: string;
+
+    @Column()
+    description: string;
+
+    @Column()
+    filename: string;
+
+    @Column()
+    views: number;
+
+    @Column()
+    isPublished: boolean;
+}
+</code></pre>
+<h3>今日图 - 开发各类小程序</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/29/16a681c77f9db5ce?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/05/01.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/05/01.html</guid><pubDate>Wed, 01 May 2019 03:47:37 GMT</pubDate></item><item><title><![CDATA[2019.04.30]]></title><description><![CDATA[<h3>2019.04.30</h3>
+<p>[新闻] 在 Travis CI 中，加上 <code>travis_retry</code> 可以重试 test 三次：<a href="https://twitter.com/i/web/status/1122940846687571969">https://twitter.com/i/web/status/1122940846687571969</a></p>
+<p>[视频] 知识力量 - 怎样找到一个合适的工作：<a href="https://www.youtube.com/watch?v=cRp5rAhj_zI">https://www.youtube.com/watch?v=cRp5rAhj_zI</a></p>
+<p>[文章] 《那些年的体验技术部》；文中说出了 Ant Design 彩蛋事件最终的结局「玉伯非常生气并自领 3.25 全年绩效（无加薪无年终奖股票等奖励），偏右在内部复盘上许诺 antd 会更好，用长期的技术投入一点点弥补损失的信任」：<a href="https://juejin.im/post/5cc69e8ae51d456e2500056f">https://juejin.im/post/5cc69e8ae51d456e2500056f</a></p>
+<p>[文章] 活动 Web 页面人机识别验证的探索与实践，美团的文章质量一项很高：<a href="https://tech.meituan.com/2019/03/07/humans-and-bots-apart-for-activity-web-security.html">https://tech.meituan.com/2019/03/07/humans-and-bots-apart-for-activity-web-security.html</a></p>
+<p>[工具] TypeScript 组件打包工具：<a href="https://github.com/palmerhq/tsdx">https://github.com/palmerhq/tsdx</a></p>
+<h3>配图 - travis_retry</h3>
+<p><img src="https://pbs.twimg.com/media/D5V8voBW4AAInTu.jpg" alt=""></p>
+<h3>配图 - 活动 Web 页面人机识别验证的探索与实践</h3>
+<p><img src="https://p1.meituan.net/scarlett/b147b264d60d4067662ab86279505326211342.png@860w" alt=""></p>
+<h3>配图 - 那些年的体验技术部</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/29/16a67e96454816ad?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=""></p>
+<h3>配图 - TypeScript 组件打包工具</h3>
+<p><img src="https://user-images.githubusercontent.com/4060187/52168303-574d3a00-26f6-11e9-9f3b-71dbec9ebfcb.gif" alt=""></p>
+<h3>今日图 - 先上线，优化以后再说</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/30/16a6ba7154cf7124?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/04/30.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/04/30.html</guid><pubDate>Tue, 30 Apr 2019 02:15:42 GMT</pubDate></item><item><title><![CDATA[2019.04.29]]></title><description><![CDATA[<h3>2019.04.29</h3>
+<p>[视频] 罗振宇 - 知识就是力量，怎样逼自己成为一个上进的人；他讲了一个“被绑架”的概念，实际上做开源项目就像是被绑架，撤都撤不了 -_-|：<a href="https://www.youtube.com/watch?v=1YI1k1iTFd8">https://www.youtube.com/watch?v=1YI1k1iTFd8</a></p>
+<p>[新闻] Electron 5.0.0 发布，新增了一些 API 用于获取 MacOS 系统颜色、当前进程消耗内存、多 BrowserWindow 等等，获取当前进程消耗内存的 API 不错：<a href="https://www.oschina.net/news/106219/electron-5-0-0-released?from=20190428">https://www.oschina.net/news/106219/electron-5-0-0-released?from=20190428</a></p>
+<p>[资源] 网易云音乐 Node.js API Service，该作者封装了近 100 个 API，非常的牛：<a href="https://github.com/Binaryify/NeteaseCloudMusicApi">https://github.com/Binaryify/NeteaseCloudMusicApi</a></p>
+<p>[资源] 命令行的艺术；主要讲解 Linux 命令下的，一些实用的命令，<a href="https://www.youtube.com/watch?v=qgG5Jhi_Els">附有配套视频</a>：<a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md</a></p>
+<h3>配图 - 网易云音乐 API Service</h3>
+<p><img src="https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/%E7%94%A8%E6%88%B7%E6%AD%8C%E5%8D%95.png" alt=""></p>
+<h3>今日图 - 翻译满分</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/19/16a3544c29a57f7a?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/04/29.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/04/29.html</guid><pubDate>Mon, 29 Apr 2019 02:27:49 GMT</pubDate></item><item><title><![CDATA[2019.04.24]]></title><description><![CDATA[<h3>2019.04.24</h3>
+<p>[新闻] Create React App 3.0.0 发布，支持 Jest 24、Hooks、TypeScript linting 等：<a href="https://github.com/facebook/create-react-app/releases/tag/v3.0.0">https://github.com/facebook/create-react-app/releases/tag/v3.0.0</a></p>
+<p>[文章] 用 Vue3 公开的思路从 0 实现最简化的 Vue：<a href="https://juejin.im/post/5cbc7a06f265da03587bfad0">https://juejin.im/post/5cbc7a06f265da03587bfad0</a></p>
+<p>[类库] download-git-repo 是把 Git 仓库，下载到你本地的一个类库，比如在使用 <code>vue create my-project</code> 时会下载通用模板，这时可能会用到它：<a href="https://github.com/flipxfx/download-git-repo">https://github.com/flipxfx/download-git-repo</a></p>
+<p>[类库] ora 是 Terminal 的等待提示，可以配合着 download-git-repo 下载包时等待使用：<a href="https://github.com/sindresorhus/ora">https://github.com/sindresorhus/ora</a></p>
+<p>[资源] 1 毛钱的掘进小册，《你不知道的 Chrome 调试技巧》；我是比较喜欢它的小册，能系统的学习一个东西，不用去网上找博客，然后全都是重复或零零散散的知识：<a href="https://juejin.im/book/5c526902e51d4543805ef35e/section/5c5269026fb9a049f1549e4a#heading-2">https://juejin.im/book/5c526902e51d4543805ef35e/section/5c5269026fb9a049f1549e4a#heading-2</a></p>
+<h3>配图 - 1 毛钱的掘进小册</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2dhn4tiy7j20hq16040r.jpg" alt=""></p>
+<h3>配图 - 用 Vue3 公开的思路从 0 实现最简化的 Vue</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2dhqt2uklj20v60t8gnr.jpg" alt=""></p>
+<h3>配图 - ora</h3>
+<p><img src="https://raw.githubusercontent.com/sindresorhus/ora/master/screenshot.svg?sanitize=true" alt=""></p>
+<h3>示例 - download-git-repo</h3>
+<pre><code class="language-js">download('wubaiqing/zaobao', 'zaobao', function (err) {
+  console.log(err ? 'Error' : 'Success')
+})
+</code></pre>
+<h3>今日图 - 开会时的脑子</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/23/16a48e514f322a21?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/04/24.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/04/24.html</guid><pubDate>Sun, 28 Apr 2019 02:20:58 GMT</pubDate></item><item><title><![CDATA[2019.04.25]]></title><description><![CDATA[<h3>2019.04.25</h3>
+<p>[视频] Ben Awad 展示 Chrome DevTools 使用技巧，比如直接获取 <code>title</code> 元素，可以在 console 中使用 <code>$('title')</code> 的方式，比如在 Toggle device toolbar 点击上面的浮动元素可以任意切换移动端设备大小：<a href="https://www.youtube.com/watch?v=4sZJASynNcY">https://www.youtube.com/watch?v=4sZJASynNcY</a></p>
+<p>[工具] 基于浏览器的在线代理软件，可以直接访问 Google、YouTube 等网站，<a href="https://zjcqoo.github.io/-----https://www.google.com">在线测试</a>：<a href="https://github.com/EtherDream/jsproxy">https://github.com/EtherDream/jsproxy</a></p>
+<p>[类库] use-http 可以在 React Hook 中发起一个 Request 请求：<a href="https://github.com/alex-cory/use-http">https://github.com/alex-cory/use-http</a></p>
+<p>[类库] 使用 HTML5 API 进行录音，可以把音频导出 mp3、wav、ogg、webm、amr 格式，支持 PC 和 Android、iOS 部分浏览器，微信也是支持的：<a href="https://github.com/xiangyuecn/Recorder">https://github.com/xiangyuecn/Recorder</a></p>
+<h3>配图 - Chrome DevTools 使用技巧</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2esnolrbij21hu0u8jxc.jpg" alt=""></p>
+<h3>配图 - HTML 录音</h3>
+<p><img src="https://ws1.sinaimg.cn/large/62bfa70bly1g2eqjy8fd0j2172164qbp.jpg" alt=""></p>
+<h3>示例 - download-git-repo</h3>
+<pre><code class="language-js">import useFetch from 'use-http'
+
+function App() {
+  const options = { // accepts all `fetch` options
+    onMount: true // will fire on componentDidMount
+  }
+  
+  var [data, loading, error, request] = useFetch('https://example.com', options)
+  
+  // want to use object destructuring? You can do that too
+  var { data, loading, error, request } = useFetch('https://example.com')
+  
+  const postData = () =&gt; {
+    request.post({
+      no: 'way',
+    })
+  }
+
+  if (error) return 'Error!'
+  if (loading) return 'Loading!'
+  
+  return (
+    &lt;&gt;
+      &lt;button onClick={postData}&gt;Post Some Data&lt;/button&gt;
+      &lt;code&gt;
+        &lt;pre&gt;{data}&lt;/pre&gt;
+      &lt;/code&gt;
+    &lt;/&gt;
+  )
+}
+</code></pre>
+<h3>今日图 - 当我测试新同事写的代码的时候</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/4/21/16a4041893522743?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://wubaiqing.github.io/zaobao/2019/04/25.html</link><guid isPermaLink="true">https://wubaiqing.github.io/zaobao/2019/04/25.html</guid><pubDate>Sun, 28 Apr 2019 02:20:58 GMT</pubDate></item></channel></rss>
